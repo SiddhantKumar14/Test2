@@ -34,3 +34,6 @@ jobs:
         run: |
           echo Add other actions to build,
           black *
+          git add .
+          git commit -m 'formatted'
+          git push origin dev

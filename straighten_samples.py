@@ -23,4 +23,4 @@ data = torch.from_numpy(im).float().unsqueeze(0).to(device)
 transfer = STN(data)
 transfer = transfer.cpu().detach().numpy()
 
-print("shape = ",im.shape, transfer[0].shape)
+print("shape =  ",im.shape, transfer[0].shape)

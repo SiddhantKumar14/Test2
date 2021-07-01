@@ -15,11 +15,12 @@ STN.load_state_dict(torch.load('Final_STN_model.pth', map_location=lambda storag
 STN.eval()
 
 im = cv2.imread('/home/siddhant.kumar.14/siddhant-ml-ocr-training/images/0001_2021_03_02_18_03_15_76_472_249_534_278_inkh83.jpg')
-print(im.shape)
+print('im shape = ',im.shape)
+
 im = cv2.resize(im, (94, 24), interpolation=cv2.INTER_CUBIC)
 im = (np.transpose(np.float32(im), (2, 0, 1)) - 127.5)*0.0078125
 data = torch.from_numpy(im).float().unsqueeze(0).to(device)
 transfer = STN(data)
 transfer = transfer.cpu().detach().numpy()
 
-print(im.shape,transfer[0].shape)
+print(im.shape, transfer[0].shape)

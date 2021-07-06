@@ -1,0 +1,2585 @@
+[2021-07-01 10:12:40Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2021-07-01 10:12:40Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:40Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:40Z INFO HostContext] Well known config file 'Credentials': '/home/siddhant.kumar.14/Test2/actions-runner/.credentials'
+[2021-07-01 10:12:40Z INFO Worker] Version: 2.278.0
+[2021-07-01 10:12:40Z INFO Worker] Commit: 62d926efce35d3ea16d7624a25aaa5b300737def
+[2021-07-01 10:12:40Z INFO Worker] Culture: en-US
+[2021-07-01 10:12:40Z INFO Worker] UI Culture: en-US
+[2021-07-01 10:12:40Z INFO Worker] Waiting to receive the job message from the channel.
+[2021-07-01 10:12:40Z INFO Worker] Message received.
+[2021-07-01 10:12:40Z INFO Worker] Job message:
+ {
+  "fileTable": [
+    ".github/workflows/main.yml"
+  ],
+  "mask": [
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    }
+  ],
+  "steps": [
+    {
+      "type": "action",
+      "reference": {
+        "type": "repository",
+        "name": "actions/checkout",
+        "ref": "v2",
+        "repositoryType": "GitHub",
+        "path": ""
+      },
+      "contextName": "__actions_checkout",
+      "condition": "success()",
+      "id": "a60052d4-79a0-5821-3eeb-84adb9872c5b",
+      "name": "__actions_checkout"
+    },
+    {
+      "type": "action",
+      "reference": {
+        "type": "script"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 29,
+        "col": 15,
+        "lit": "Run a one-line script"
+      },
+      "contextName": "__run",
+      "inputs": {
+        "type": 2,
+        "map": [
+          {
+            "key": "script",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 30,
+              "col": 14,
+              "lit": "pip install black"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "dd23db01-cff6-57a4-373a-5c8097a97333",
+      "name": "__run"
+    },
+    {
+      "type": "action",
+      "reference": {
+        "type": "script"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 33,
+        "col": 15,
+        "lit": "Run a multi-line script"
+      },
+      "contextName": "__run_2",
+      "inputs": {
+        "type": 2,
+        "map": [
+          {
+            "key": "script",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 34,
+              "col": 14,
+              "lit": "echo Add other actions to build,\nblack *\ngit config --global user.email \"siddhant.kumar.14@gmail.com\"\ngit config --global user.name \"SiddhantKumar14\"\ngit add .\ngit commit -m 'formatted'\ngit push origin dev\n"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "87b991c0-db8a-593e-4233-d8a37f15e4c9",
+      "name": "__run_2"
+    }
+  ],
+  "variables": {
+    "system.isScheduled": {
+      "value": "False"
+    },
+    "system": {
+      "value": "actions"
+    },
+    "system.hosttype": {
+      "value": "actions"
+    },
+    "system.servertype": {
+      "value": "Hosted"
+    },
+    "system.culture": {
+      "value": "en-US"
+    },
+    "system.collectionId": {
+      "value": "84502b69-1344-434d-85a2-df0c3c9b394d"
+    },
+    "system.collectionUri": {
+      "value": "https://pipelines.actions.githubusercontent.com/3BTWCpzLYkvu1NzPHUzB4FPWbQngBBR0gwUACze7PhQFAYAljY/"
+    },
+    "system.taskDefinitionsUri": {
+      "value": "https://pipelines.actions.githubusercontent.com/3BTWCpzLYkvu1NzPHUzB4FPWbQngBBR0gwUACze7PhQFAYAljY/"
+    },
+    "system.pipelineStartTime": {
+      "value": "2021-07-01 10:12:38+00:00"
+    },
+    "system.definitionId": {
+      "value": "3"
+    },
+    "system.runner.lowdiskspacethreshold": {
+      "value": "100"
+    },
+    "DistributedTask.NewActionMetadata": {
+      "value": "true"
+    },
+    "DistributedTask.UseContextNameForGITHUBACTION": {
+      "value": "true"
+    },
+    "system.teamProjectId": {
+      "value": "00000000-0000-0000-0000-000000000000"
+    },
+    "build.buildId": {
+      "value": "17"
+    },
+    "build.containerId": {
+      "value": "2809569"
+    },
+    "system.workflowFilePath": {
+      "value": ".github/workflows/main.yml"
+    },
+    "system.definitionName": {
+      "value": "Test2"
+    },
+    "system.planId": {
+      "value": "75a5dd25-e92b-46bf-aa1e-e1c0235d0465"
+    },
+    "system.timelineId": {
+      "value": "75a5dd25-e92b-46bf-aa1e-e1c0235d0465"
+    },
+    "system.stageDisplayName": {
+      "value": "__default"
+    },
+    "system.stageId": {
+      "value": "96ac2280-8cb4-5df5-99de-dd2da759617d"
+    },
+    "system.stageName": {
+      "value": "__default"
+    },
+    "system.stageAttempt": {
+      "value": "1"
+    },
+    "system.phaseDisplayName": {
+      "value": "build"
+    },
+    "system.phaseId": {
+      "value": "6884a131-87da-5381-61f3-d7acc3b91d76"
+    },
+    "system.phaseName": {
+      "value": "build"
+    },
+    "system.phaseAttempt": {
+      "value": "1"
+    },
+    "system.jobIdentifier": {
+      "value": "build.__default"
+    },
+    "system.jobAttempt": {
+      "value": "1"
+    },
+    "System.JobPositionInPhase": {
+      "value": "1"
+    },
+    "System.TotalJobsInPhase": {
+      "value": "1"
+    },
+    "system.github.job": {
+      "value": "build"
+    },
+    "system.jobDisplayName": {
+      "value": "build"
+    },
+    "system.jobId": {
+      "value": "ca395085-040a-526b-2ce8-bdc85f692774"
+    },
+    "system.jobName": {
+      "value": "__default"
+    },
+    "system.github.token.permissions": {
+      "value": "{\"Actions\":\"write\",\"Checks\":\"write\",\"Contents\":\"write\",\"Deployments\":\"write\",\"Discussions\":\"write\",\"Issues\":\"write\",\"Metadata\":\"read\",\"Packages\":\"write\",\"PullRequests\":\"write\",\"RepositoryProjects\":\"write\",\"SecurityEvents\":\"write\",\"Statuses\":\"write\"}"
+    },
+    "system.github.token": {
+      "value": "***",
+      "isSecret": true
+    },
+    "system.runnerGroupName": {
+      "value": "Default"
+    }
+  },
+  "messageType": "PipelineAgentJobRequest",
+  "plan": {
+    "scopeIdentifier": "00000000-0000-0000-0000-000000000000",
+    "planType": "Actions",
+    "version": 13,
+    "planId": "75a5dd25-e92b-46bf-aa1e-e1c0235d0465",
+    "planGroup": "Actions:00000000-0000-0000-0000-000000000000:1",
+    "artifactUri": "vstfs:///Build/Build/17",
+    "artifactLocation": null,
+    "definition": {
+      "_links": {},
+      "id": 3,
+      "name": "Test2"
+    },
+    "owner": {
+      "_links": {},
+      "id": 3,
+      "name": "SiddhantKumar14"
+    }
+  },
+  "timeline": {
+    "id": "75a5dd25-e92b-46bf-aa1e-e1c0235d0465",
+    "changeId": 4,
+    "location": null
+  },
+  "jobId": "ca395085-040a-526b-2ce8-bdc85f692774",
+  "jobDisplayName": "build",
+  "jobName": "__default",
+  "requestId": 1,
+  "lockedUntil": "0001-01-01T00:00:00",
+  "resources": {
+    "endpoints": [
+      {
+        "data": {
+          "ServerId": "84502b69-1344-434d-85a2-df0c3c9b394d",
+          "ServerName": "3BTWCpzLYkvu1NzPHUzB4FPWbQngBBR0gwUACze7PhQFAYAljY",
+          "CacheServerUrl": "https://artifactcache.actions.githubusercontent.com/3BTWCpzLYkvu1NzPHUzB4FPWbQngBBR0gwUACze7PhQFAYAljY/"
+        },
+        "name": "SystemVssConnection",
+        "url": "https://pipelines.actions.githubusercontent.com/3BTWCpzLYkvu1NzPHUzB4FPWbQngBBR0gwUACze7PhQFAYAljY/",
+        "authorization": {
+          "parameters": {
+            "AccessToken": ***
+          },
+          "scheme": "OAuth"
+        },
+        "isShared": false,
+        "isReady": true
+      }
+    ]
+  },
+  "contextData": {
+    "github": {
+      "t": 2,
+      "d": [
+        {
+          "k": "ref",
+          "v": "refs/heads/dev"
+        },
+        {
+          "k": "sha",
+          "v": "ca81c18920bbb76435b7dc5dec67f8fa625bcaaf"
+        },
+        {
+          "k": "repository",
+          "v": "SiddhantKumar14/Test2"
+        },
+        {
+          "k": "repository_owner",
+          "v": "SiddhantKumar14"
+        },
+        {
+          "k": "repositoryUrl",
+          "v": "git://github.com/SiddhantKumar14/Test2.git"
+        },
+        {
+          "k": "run_id",
+          "v": "989654522"
+        },
+        {
+          "k": "run_number",
+          "v": "10"
+        },
+        {
+          "k": "retention_days",
+          "v": "90"
+        },
+        {
+          "k": "actor",
+          "v": "SiddhantKumar14"
+        },
+        {
+          "k": "workflow",
+          "v": "CI"
+        },
+        {
+          "k": "head_ref",
+          "v": ""
+        },
+        {
+          "k": "base_ref",
+          "v": ""
+        },
+        {
+          "k": "event_name",
+          "v": "push"
+        },
+        {
+          "k": "event",
+          "v": {
+            "t": 2,
+            "d": [
+              {
+                "k": "after",
+                "v": "ca81c18920bbb76435b7dc5dec67f8fa625bcaaf"
+              },
+              {
+                "k": "base_ref",
+                "v": null
+              },
+              {
+                "k": "before",
+                "v": "314c134387bf52b7cecc751e09f8e4979ac51151"
+              },
+              {
+                "k": "commits",
+                "v": {
+                  "t": 1,
+                  "a": [
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "siddhant.kumar.14@gmail.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "SiddhantKumar14"
+                              },
+                              {
+                                "k": "username",
+                                "v": "SiddhantKumar14"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "siddhant.kumar.14@gmail.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "SiddhantKumar14"
+                              },
+                              {
+                                "k": "username",
+                                "v": "SiddhantKumar14"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "7c8dfddb01b8edfd91042f206e7ffea6647b084c"
+                        },
+                        {
+                          "k": "message",
+                          "v": "test.py"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2021-07-01T10:11:24Z"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "3c23c457e5efa29f734990e54306a3c08f56df09"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/SiddhantKumar14/Test2/commit/7c8dfddb01b8edfd91042f206e7ffea6647b084c"
+                        }
+                      ]
+                    },
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "siddhant.kumar.14@gmail.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "SiddhantKumar14"
+                              },
+                              {
+                                "k": "username",
+                                "v": "SiddhantKumar14"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "siddhant.kumar.14@gmail.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "SiddhantKumar14"
+                              },
+                              {
+                                "k": "username",
+                                "v": "SiddhantKumar14"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "ca81c18920bbb76435b7dc5dec67f8fa625bcaaf"
+                        },
+                        {
+                          "k": "message",
+                          "v": "Merge branch 'dev' of https://github.com/SiddhantKumar14/Test2 into dev"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2021-07-01T10:11:54Z"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "fa722a5a9f58c3785c717c3ad486f015a7a6837e"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/SiddhantKumar14/Test2/commit/ca81c18920bbb76435b7dc5dec67f8fa625bcaaf"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "compare",
+                "v": "https://github.com/SiddhantKumar14/Test2/compare/314c134387bf...ca81c18920bb"
+              },
+              {
+                "k": "created",
+                "v": false
+              },
+              {
+                "k": "deleted",
+                "v": false
+              },
+              {
+                "k": "forced",
+                "v": false
+              },
+              {
+                "k": "head_commit",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "author",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "siddhant.kumar.14@gmail.com"
+                          },
+                          {
+                            "k": "name",
+                            "v": "SiddhantKumar14"
+                          },
+                          {
+                            "k": "username",
+                            "v": "SiddhantKumar14"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "committer",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "siddhant.kumar.14@gmail.com"
+                          },
+                          {
+                            "k": "name",
+                            "v": "SiddhantKumar14"
+                          },
+                          {
+                            "k": "username",
+                            "v": "SiddhantKumar14"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "distinct",
+                      "v": true
+                    },
+                    {
+                      "k": "id",
+                      "v": "ca81c18920bbb76435b7dc5dec67f8fa625bcaaf"
+                    },
+                    {
+                      "k": "message",
+                      "v": "Merge branch 'dev' of https://github.com/SiddhantKumar14/Test2 into dev"
+                    },
+                    {
+                      "k": "timestamp",
+                      "v": "2021-07-01T10:11:54Z"
+                    },
+                    {
+                      "k": "tree_id",
+                      "v": "fa722a5a9f58c3785c717c3ad486f015a7a6837e"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://github.com/SiddhantKumar14/Test2/commit/ca81c18920bbb76435b7dc5dec67f8fa625bcaaf"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "pusher",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "email",
+                      "v": "siddhant18101@iiitnr.edu.in"
+                    },
+                    {
+                      "k": "name",
+                      "v": "SiddhantKumar14"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "ref",
+                "v": "refs/heads/dev"
+              },
+              {
+                "k": "repository",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "archive_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/{archive_format}{/ref}"
+                    },
+                    {
+                      "k": "archived",
+                      "v": false
+                    },
+                    {
+                      "k": "assignees_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/assignees{/user}"
+                    },
+                    {
+                      "k": "blobs_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/git/blobs{/sha}"
+                    },
+                    {
+                      "k": "branches_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/branches{/branch}"
+                    },
+                    {
+                      "k": "clone_url",
+                      "v": "https://github.com/SiddhantKumar14/Test2.git"
+                    },
+                    {
+                      "k": "collaborators_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/collaborators{/collaborator}"
+                    },
+                    {
+                      "k": "comments_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/comments{/number}"
+                    },
+                    {
+                      "k": "commits_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/commits{/sha}"
+                    },
+                    {
+                      "k": "compare_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/compare/{base}...{head}"
+                    },
+                    {
+                      "k": "contents_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/contents/{+path}"
+                    },
+                    {
+                      "k": "contributors_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/contributors"
+                    },
+                    {
+                      "k": "created_at",
+                      "v": 1625122964.0
+                    },
+                    {
+                      "k": "default_branch",
+                      "v": "dev"
+                    },
+                    {
+                      "k": "deployments_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/deployments"
+                    },
+                    {
+                      "k": "description",
+                      "v": null
+                    },
+                    {
+                      "k": "disabled",
+                      "v": false
+                    },
+                    {
+                      "k": "downloads_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/downloads"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/events"
+                    },
+                    {
+                      "k": "fork",
+                      "v": false
+                    },
+                    {
+                      "k": "forks",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/forks"
+                    },
+                    {
+                      "k": "full_name",
+                      "v": "SiddhantKumar14/Test2"
+                    },
+                    {
+                      "k": "git_commits_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/git/commits{/sha}"
+                    },
+                    {
+                      "k": "git_refs_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/git/refs{/sha}"
+                    },
+                    {
+                      "k": "git_tags_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/git/tags{/sha}"
+                    },
+                    {
+                      "k": "git_url",
+                      "v": "git://github.com/SiddhantKumar14/Test2.git"
+                    },
+                    {
+                      "k": "has_downloads",
+                      "v": true
+                    },
+                    {
+                      "k": "has_issues",
+                      "v": true
+                    },
+                    {
+                      "k": "has_pages",
+                      "v": false
+                    },
+                    {
+                      "k": "has_projects",
+                      "v": true
+                    },
+                    {
+                      "k": "has_wiki",
+                      "v": true
+                    },
+                    {
+                      "k": "homepage",
+                      "v": null
+                    },
+                    {
+                      "k": "hooks_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/hooks"
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/SiddhantKumar14/Test2"
+                    },
+                    {
+                      "k": "id",
+                      "v": 381940515.0
+                    },
+                    {
+                      "k": "issue_comment_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/issues/comments{/number}"
+                    },
+                    {
+                      "k": "issue_events_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/issues/events{/number}"
+                    },
+                    {
+                      "k": "issues_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/issues{/number}"
+                    },
+                    {
+                      "k": "keys_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/keys{/key_id}"
+                    },
+                    {
+                      "k": "labels_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/labels{/name}"
+                    },
+                    {
+                      "k": "language",
+                      "v": "Python"
+                    },
+                    {
+                      "k": "languages_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/languages"
+                    },
+                    {
+                      "k": "license",
+                      "v": null
+                    },
+                    {
+                      "k": "master_branch",
+                      "v": "dev"
+                    },
+                    {
+                      "k": "merges_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/merges"
+                    },
+                    {
+                      "k": "milestones_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/milestones{/number}"
+                    },
+                    {
+                      "k": "mirror_url",
+                      "v": null
+                    },
+                    {
+                      "k": "name",
+                      "v": "Test2"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "MDEwOlJlcG9zaXRvcnkzODE5NDA1MTU="
+                    },
+                    {
+                      "k": "notifications_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/notifications{?since,all,participating}"
+                    },
+                    {
+                      "k": "open_issues",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "open_issues_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "owner",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "avatar_url",
+                            "v": "https://avatars.githubusercontent.com/u/15691143?v=4"
+                          },
+                          {
+                            "k": "email",
+                            "v": "siddhant18101@iiitnr.edu.in"
+                          },
+                          {
+                            "k": "events_url",
+                            "v": "https://api.github.com/users/SiddhantKumar14/events{/privacy}"
+                          },
+                          {
+                            "k": "followers_url",
+                            "v": "https://api.github.com/users/SiddhantKumar14/followers"
+                          },
+                          {
+                            "k": "following_url",
+                            "v": "https://api.github.com/users/SiddhantKumar14/following{/other_user}"
+                          },
+                          {
+                            "k": "gists_url",
+                            "v": "https://api.github.com/users/SiddhantKumar14/gists{/gist_id}"
+                          },
+                          {
+                            "k": "gravatar_id",
+                            "v": ""
+                          },
+                          {
+                            "k": "html_url",
+                            "v": "https://github.com/SiddhantKumar14"
+                          },
+                          {
+                            "k": "id",
+                            "v": 15691143.0
+                          },
+                          {
+                            "k": "login",
+                            "v": "SiddhantKumar14"
+                          },
+                          {
+                            "k": "name",
+                            "v": "SiddhantKumar14"
+                          },
+                          {
+                            "k": "node_id",
+                            "v": "MDQ6VXNlcjE1NjkxMTQz"
+                          },
+                          {
+                            "k": "organizations_url",
+                            "v": "https://api.github.com/users/SiddhantKumar14/orgs"
+                          },
+                          {
+                            "k": "received_events_url",
+                            "v": "https://api.github.com/users/SiddhantKumar14/received_events"
+                          },
+                          {
+                            "k": "repos_url",
+                            "v": "https://api.github.com/users/SiddhantKumar14/repos"
+                          },
+                          {
+                            "k": "site_admin",
+                            "v": false
+                          },
+                          {
+                            "k": "starred_url",
+                            "v": "https://api.github.com/users/SiddhantKumar14/starred{/owner}{/repo}"
+                          },
+                          {
+                            "k": "subscriptions_url",
+                            "v": "https://api.github.com/users/SiddhantKumar14/subscriptions"
+                          },
+                          {
+                            "k": "type",
+                            "v": "User"
+                          },
+                          {
+                            "k": "url",
+                            "v": "https://api.github.com/users/SiddhantKumar14"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "private",
+                      "v": false
+                    },
+                    {
+                      "k": "pulls_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/pulls{/number}"
+                    },
+                    {
+                      "k": "pushed_at",
+                      "v": 1625134353.0
+                    },
+                    {
+                      "k": "releases_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/releases{/id}"
+                    },
+                    {
+                      "k": "size",
+                      "v": 7.0
+                    },
+                    {
+                      "k": "ssh_url",
+                      "v": "git@github.com:SiddhantKumar14/Test2.git"
+                    },
+                    {
+                      "k": "stargazers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/stargazers"
+                    },
+                    {
+                      "k": "statuses_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/statuses/{sha}"
+                    },
+                    {
+                      "k": "subscribers_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/subscribers"
+                    },
+                    {
+                      "k": "subscription_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/subscription"
+                    },
+                    {
+                      "k": "svn_url",
+                      "v": "https://github.com/SiddhantKumar14/Test2"
+                    },
+                    {
+                      "k": "tags_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/tags"
+                    },
+                    {
+                      "k": "teams_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/teams"
+                    },
+                    {
+                      "k": "trees_url",
+                      "v": "https://api.github.com/repos/SiddhantKumar14/Test2/git/trees{/sha}"
+                    },
+                    {
+                      "k": "updated_at",
+                      "v": "2021-07-01T10:07:46Z"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://github.com/SiddhantKumar14/Test2"
+                    },
+                    {
+                      "k": "watchers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "watchers_count",
+                      "v": 0.0
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "sender",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "avatar_url",
+                      "v": "https://avatars.githubusercontent.com/u/15691143?v=4"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/users/SiddhantKumar14/events{/privacy}"
+                    },
+                    {
+                      "k": "followers_url",
+                      "v": "https://api.github.com/users/SiddhantKumar14/followers"
+                    },
+                    {
+                      "k": "following_url",
+                      "v": "https://api.github.com/users/SiddhantKumar14/following{/other_user}"
+                    },
+                    {
+                      "k": "gists_url",
+                      "v": "https://api.github.com/users/SiddhantKumar14/gists{/gist_id}"
+                    },
+                    {
+                      "k": "gravatar_id",
+                      "v": ""
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/SiddhantKumar14"
+                    },
+                    {
+                      "k": "id",
+                      "v": 15691143.0
+                    },
+                    {
+                      "k": "login",
+                      "v": "SiddhantKumar14"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "MDQ6VXNlcjE1NjkxMTQz"
+                    },
+                    {
+                      "k": "organizations_url",
+                      "v": "https://api.github.com/users/SiddhantKumar14/orgs"
+                    },
+                    {
+                      "k": "received_events_url",
+                      "v": "https://api.github.com/users/SiddhantKumar14/received_events"
+                    },
+                    {
+                      "k": "repos_url",
+                      "v": "https://api.github.com/users/SiddhantKumar14/repos"
+                    },
+                    {
+                      "k": "site_admin",
+                      "v": false
+                    },
+                    {
+                      "k": "starred_url",
+                      "v": "https://api.github.com/users/SiddhantKumar14/starred{/owner}{/repo}"
+                    },
+                    {
+                      "k": "subscriptions_url",
+                      "v": "https://api.github.com/users/SiddhantKumar14/subscriptions"
+                    },
+                    {
+                      "k": "type",
+                      "v": "User"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/users/SiddhantKumar14"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "k": "server_url",
+          "v": "https://github.com"
+        },
+        {
+          "k": "api_url",
+          "v": "https://api.github.com"
+        },
+        {
+          "k": "graphql_url",
+          "v": "https://api.github.com/graphql"
+        }
+      ]
+    },
+    "needs": {
+      "t": 2
+    },
+    "matrix": null,
+    "strategy": {
+      "t": 2,
+      "d": [
+        {
+          "k": "fail-fast",
+          "v": true
+        },
+        {
+          "k": "job-index",
+          "v": 0.0
+        },
+        {
+          "k": "job-total",
+          "v": 1.0
+        },
+        {
+          "k": "max-parallel",
+          "v": 1.0
+        }
+      ]
+    }
+  }
+}
+[2021-07-01 10:12:40Z INFO JobRunner] Job ID ca395085-040a-526b-2ce8-bdc85f692774
+[2021-07-01 10:12:40Z INFO JobRunner] Creating job server with URL: https://pipelines.actions.githubusercontent.com/3BTWCpzLYkvu1NzPHUzB4FPWbQngBBR0gwUACze7PhQFAYAljY/
+[2021-07-01 10:12:41Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-07-01 10:12:41Z INFO Worker] Listening for cancel message from the channel.
+[2021-07-01 10:12:41Z INFO Worker] Waiting for the job to complete or for a cancel message from the channel.
+[2021-07-01 10:12:41Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-07-01 10:12:41Z INFO JobServerQueue] Start process web console line queue.
+[2021-07-01 10:12:41Z INFO JobServerQueue] Start process file upload queue.
+[2021-07-01 10:12:41Z INFO JobServerQueue] Start process timeline update queue.
+[2021-07-01 10:12:41Z INFO ExecutionContext] Initialize GitHub context
+[2021-07-01 10:12:41Z INFO ExecutionContext] Initialize Env context
+[2021-07-01 10:12:41Z INFO ConfigurationStore] currentAssemblyLocation: /home/siddhant.kumar.14/Test2/actions-runner/bin/Runner.Worker.dll
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:41Z INFO ConfigurationStore] binPath: /home/siddhant.kumar.14/Test2/actions-runner/bin
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:41Z INFO ConfigurationStore] RootFolder: /home/siddhant.kumar.14/Test2/actions-runner
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:41Z INFO HostContext] Well known config file 'Runner': '/home/siddhant.kumar.14/Test2/actions-runner/.runner'
+[2021-07-01 10:12:41Z INFO ConfigurationStore] ConfigFilePath: /home/siddhant.kumar.14/Test2/actions-runner/.runner
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:41Z INFO HostContext] Well known config file 'Credentials': '/home/siddhant.kumar.14/Test2/actions-runner/.credentials'
+[2021-07-01 10:12:41Z INFO ConfigurationStore] CredFilePath: /home/siddhant.kumar.14/Test2/actions-runner/.credentials
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:41Z INFO HostContext] Well known config file 'MigratedCredentials': '/home/siddhant.kumar.14/Test2/actions-runner/.credentials_migrated'
+[2021-07-01 10:12:41Z INFO ConfigurationStore] MigratedCredFilePath: /home/siddhant.kumar.14/Test2/actions-runner/.credentials_migrated
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:41Z INFO HostContext] Well known config file 'Service': '/home/siddhant.kumar.14/Test2/actions-runner/.service'
+[2021-07-01 10:12:41Z INFO ConfigurationStore] ServiceConfigFilePath: /home/siddhant.kumar.14/Test2/actions-runner/.service
+[2021-07-01 10:12:41Z INFO ConfigurationStore] Read setting file: 291 chars
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Diag': '/home/siddhant.kumar.14/Test2/actions-runner/_diag'
+[2021-07-01 10:12:41Z INFO JobRunner] Starting the job execution context.
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:12:41Z INFO JobRunner] Validating directory permissions for: '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Tools': '/home/siddhant.kumar.14/Test2/actions-runner/_work/_tool'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Temp': '/home/siddhant.kumar.14/Test2/actions-runner/_work/_temp'
+[2021-07-01 10:12:41Z INFO JobRunner] Getting job extension.
+[2021-07-01 10:12:41Z INFO JobRunner] Initialize job. Getting all job steps.
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Diag': '/home/siddhant.kumar.14/Test2/actions-runner/_diag'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:41Z INFO HostContext] Well known config file 'Credentials': '/home/siddhant.kumar.14/Test2/actions-runner/.credentials'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:41Z INFO HostContext] Well known config file 'SetupInfo': '/home/siddhant.kumar.14/Test2/actions-runner/.setup_info'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:12:41Z INFO PipelineDirectoryManager] Loading tracking config if exists: /home/siddhant.kumar.14/Test2/actions-runner/_work/_PipelineMapping/SiddhantKumar14/Test2/PipelineFolder.json
+[2021-07-01 10:12:41Z INFO PipelineDirectoryManager] Creating a new tracking config file.
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:12:41Z INFO PipelineDirectoryManager] Creating pipeline directory.
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:12:41Z INFO PipelineDirectoryManager] Creating workspace directory.
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:12:41Z INFO JobExtension] Downloading actions
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:12:41Z INFO HostContext] Well known directory 'Actions': '/home/siddhant.kumar.14/Test2/actions-runner/_work/_actions'
+[2021-07-01 10:12:42Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'dc57473c-3c0c-4906-bed8-60e72cf68635', success rate: 1/1.
+[2021-07-01 10:12:42Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:42Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:42Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:12:42Z INFO HostContext] Well known directory 'Actions': '/home/siddhant.kumar.14/Test2/actions-runner/_work/_actions'
+[2021-07-01 10:12:42Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:42Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:42Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:12:42Z INFO HostContext] Well known directory 'Actions': '/home/siddhant.kumar.14/Test2/actions-runner/_work/_actions'
+[2021-07-01 10:12:42Z INFO ActionManager] Save archive 'https://api.github.com/repos/actions/checkout/tarball/5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f' into /home/siddhant.kumar.14/Test2/actions-runner/_work/_actions/_temp_a7817997-5761-4745-ac45-22bcc9c93794/63960bd6-c72b-461b-80d0-ed7f6c4e1cbc.tar.gz.
+[2021-07-01 10:12:42Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'dc57473c-3c0c-4906-bed8-60e72cf68635', success rate: 1/1.
+[2021-07-01 10:12:42Z INFO ActionManager] Which: 'tar'
+[2021-07-01 10:12:42Z INFO ActionManager] Location: '/bin/tar'
+[2021-07-01 10:12:42Z INFO ProcessInvokerWrapper] Starting process:
+[2021-07-01 10:12:42Z INFO ProcessInvokerWrapper]   File name: '/bin/tar'
+[2021-07-01 10:12:42Z INFO ProcessInvokerWrapper]   Arguments: '-xzf "/home/siddhant.kumar.14/Test2/actions-runner/_work/_actions/_temp_a7817997-5761-4745-ac45-22bcc9c93794/63960bd6-c72b-461b-80d0-ed7f6c4e1cbc.tar.gz"'
+[2021-07-01 10:12:42Z INFO ProcessInvokerWrapper]   Working directory: '/home/siddhant.kumar.14/Test2/actions-runner/_work/_actions/_temp_a7817997-5761-4745-ac45-22bcc9c93794/_staging'
+[2021-07-01 10:12:42Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-07-01 10:12:42Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-07-01 10:12:42Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2021-07-01 10:12:42Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-07-01 10:12:42Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-07-01 10:12:42Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-07-01 10:12:42Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2021-07-01 10:12:42Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 9542.
+[2021-07-01 10:12:42Z INFO ProcessInvokerWrapper] Process started with process id 9542, waiting for process exit.
+[2021-07-01 10:12:42Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-07-01 10:12:42Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-07-01 10:12:42Z INFO ProcessInvokerWrapper] Finished process 9542 with exit code 0, and elapsed time 00:00:00.1026860.
+[2021-07-01 10:12:42Z INFO ActionManager] Finished getting action repository.
+[2021-07-01 10:12:42Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:42Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:42Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:12:42Z INFO HostContext] Well known directory 'Actions': '/home/siddhant.kumar.14/Test2/actions-runner/_work/_actions'
+[2021-07-01 10:12:42Z INFO ActionManifestManager] Load schema file with definitions: [
+  "null",
+  "boolean",
+  "number",
+  "string",
+  "sequence",
+  "mapping",
+  "any",
+  "action-root",
+  "inputs",
+  "input",
+  "outputs",
+  "outputs-attributes",
+  "runs",
+  "container-runs",
+  "container-runs-args",
+  "container-runs-env",
+  "node12-runs",
+  "plugin-runs",
+  "composite-runs",
+  "composite-steps",
+  "composite-step",
+  "container-runs-context",
+  "output-value",
+  "input-default-context",
+  "non-empty-string",
+  "string-steps-context",
+  "step-env"
+]
+[2021-07-01 10:12:42Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:42Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:42Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:12:42Z INFO HostContext] Well known directory 'Actions': '/home/siddhant.kumar.14/Test2/actions-runner/_work/_actions'
+[2021-07-01 10:12:42Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 58,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 62,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2021-07-01 10:12:42Z INFO ActionManager] Action node.js file: dist/index.js, no more preparation.
+[2021-07-01 10:12:42Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:42Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:42Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:12:42Z INFO HostContext] Well known directory 'Actions': '/home/siddhant.kumar.14/Test2/actions-runner/_work/_actions'
+[2021-07-01 10:12:42Z INFO ActionManager] Load action that reference repository from '/home/siddhant.kumar.14/Test2/actions-runner/_work/_actions/actions/checkout/v2'
+[2021-07-01 10:12:42Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:42Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:42Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:12:42Z INFO HostContext] Well known directory 'Actions': '/home/siddhant.kumar.14/Test2/actions-runner/_work/_actions'
+[2021-07-01 10:12:42Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 58,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 62,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2021-07-01 10:12:42Z INFO ActionManager] Action pre node.js file: N/A.
+[2021-07-01 10:12:42Z INFO ActionManager] Action node.js file: dist/index.js.
+[2021-07-01 10:12:42Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2021-07-01 10:12:42Z INFO JobExtension] Adding .
+[2021-07-01 10:12:43Z INFO JobExtension] Adding .
+[2021-07-01 10:12:43Z INFO JobExtension] Adding .
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Diag': '/home/siddhant.kumar.14/Test2/actions-runner/_diag'
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Diag': '/home/siddhant.kumar.14/Test2/actions-runner/_diag'
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Diag': '/home/siddhant.kumar.14/Test2/actions-runner/_diag'
+[2021-07-01 10:12:43Z INFO JobExtension] Total accessible running process: 201.
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:12:43Z INFO JobRunner] Total job steps: 3.
+[2021-07-01 10:12:43Z INFO JobRunner] Run all job steps.
+[2021-07-01 10:12:43Z INFO StepsRunner] Processing step: DisplayName='Run actions/checkout@v2'
+[2021-07-01 10:12:43Z INFO StepsRunner] Initialize Env context for step
+[2021-07-01 10:12:43Z INFO StepsRunner] Evaluating: success()
+[2021-07-01 10:12:43Z INFO StepsRunner] Result: true
+[2021-07-01 10:12:43Z INFO StepsRunner] Starting the step.
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Actions': '/home/siddhant.kumar.14/Test2/actions-runner/_work/_actions'
+[2021-07-01 10:12:43Z INFO ActionManager] Load action that reference repository from '/home/siddhant.kumar.14/Test2/actions-runner/_work/_actions/actions/checkout/v2'
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Actions': '/home/siddhant.kumar.14/Test2/actions-runner/_work/_actions'
+[2021-07-01 10:12:43Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 58,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 62,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2021-07-01 10:12:43Z INFO ActionManager] Action pre node.js file: N/A.
+[2021-07-01 10:12:43Z INFO ActionManager] Action node.js file: dist/index.js.
+[2021-07-01 10:12:43Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2021-07-01 10:12:43Z INFO ExecutionContext] Reserve record order 5 to 8 for post job actions.
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Diag': '/home/siddhant.kumar.14/Test2/actions-runner/_diag'
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Temp': '/home/siddhant.kumar.14/Test2/actions-runner/_work/_temp'
+[2021-07-01 10:12:43Z INFO ActionRunner] Write event payload to /home/siddhant.kumar.14/Test2/actions-runner/_work/_temp/_github_workflow/event.json
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Temp': '/home/siddhant.kumar.14/Test2/actions-runner/_work/_temp'
+[2021-07-01 10:12:43Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2021-07-01 10:12:43Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathFileCommand, Runner.Worker
+[2021-07-01 10:12:43Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvFileCommand, Runner.Worker
+[2021-07-01 10:12:43Z INFO ActionManifestManager] Input 'repository': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 6,
+  "col": 14,
+  "lit": "SiddhantKumar14/Test2"
+}
+[2021-07-01 10:12:43Z INFO ActionManifestManager] Input 'ref': default value evaluate result: ""
+[2021-07-01 10:12:43Z INFO ActionManifestManager] Input 'token': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 24,
+  "col": 14,
+  "lit": "***"
+}
+[2021-07-01 10:12:43Z INFO ActionManifestManager] Input 'ssh-key': default value evaluate result: ""
+[2021-07-01 10:12:43Z INFO ActionManifestManager] Input 'ssh-known-hosts': default value evaluate result: ""
+[2021-07-01 10:12:43Z INFO ActionManifestManager] Input 'ssh-strict': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 47,
+  "col": 14,
+  "lit": "true"
+}
+[2021-07-01 10:12:43Z INFO ActionManifestManager] Input 'persist-credentials': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 50,
+  "col": 14,
+  "lit": "true"
+}
+[2021-07-01 10:12:43Z INFO ActionManifestManager] Input 'path': default value evaluate result: ""
+[2021-07-01 10:12:43Z INFO ActionManifestManager] Input 'clean': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 55,
+  "col": 14,
+  "lit": "true"
+}
+[2021-07-01 10:12:43Z INFO ActionManifestManager] Input 'fetch-depth': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 58,
+  "col": 14,
+  "lit": "1"
+}
+[2021-07-01 10:12:43Z INFO ActionManifestManager] Input 'lfs': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 61,
+  "col": 14,
+  "lit": "false"
+}
+[2021-07-01 10:12:43Z INFO ActionManifestManager] Input 'submodules': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 70,
+  "col": 14,
+  "lit": "false"
+}
+[2021-07-01 10:12:43Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2021-07-01 10:12:43Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.InternalPluginSetRepoPathCommandExtension, Runner.Worker
+[2021-07-01 10:12:43Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvCommandExtension, Runner.Worker
+[2021-07-01 10:12:43Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetOutputCommandExtension, Runner.Worker
+[2021-07-01 10:12:43Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SaveStateCommandExtension, Runner.Worker
+[2021-07-01 10:12:43Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathCommandExtension, Runner.Worker
+[2021-07-01 10:12:43Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMaskCommandExtension, Runner.Worker
+[2021-07-01 10:12:43Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMatcherCommandExtension, Runner.Worker
+[2021-07-01 10:12:43Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.RemoveMatcherCommandExtension, Runner.Worker
+[2021-07-01 10:12:43Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.WarningCommandExtension, Runner.Worker
+[2021-07-01 10:12:43Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.ErrorCommandExtension, Runner.Worker
+[2021-07-01 10:12:43Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.DebugCommandExtension, Runner.Worker
+[2021-07-01 10:12:43Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.GroupCommandExtension, Runner.Worker
+[2021-07-01 10:12:43Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EndGroupCommandExtension, Runner.Worker
+[2021-07-01 10:12:43Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EchoCommandExtension, Runner.Worker
+[2021-07-01 10:12:43Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2021-07-01 10:12:43Z INFO ActionCommandManager] Register action command extension for command set-env
+[2021-07-01 10:12:43Z INFO ActionCommandManager] Register action command extension for command set-output
+[2021-07-01 10:12:43Z INFO ActionCommandManager] Register action command extension for command save-state
+[2021-07-01 10:12:43Z INFO ActionCommandManager] Register action command extension for command add-path
+[2021-07-01 10:12:43Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2021-07-01 10:12:43Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2021-07-01 10:12:43Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2021-07-01 10:12:43Z INFO ActionCommandManager] Register action command extension for command warning
+[2021-07-01 10:12:43Z INFO ActionCommandManager] Register action command extension for command error
+[2021-07-01 10:12:43Z INFO ActionCommandManager] Register action command extension for command debug
+[2021-07-01 10:12:43Z INFO ActionCommandManager] Register action command extension for command group
+[2021-07-01 10:12:43Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2021-07-01 10:12:43Z INFO ActionCommandManager] Register action command extension for command echo
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:43Z INFO HostContext] Well known directory 'Externals': '/home/siddhant.kumar.14/Test2/actions-runner/externals'
+[2021-07-01 10:12:43Z INFO ProcessInvokerWrapper] Starting process:
+[2021-07-01 10:12:43Z INFO ProcessInvokerWrapper]   File name: '/home/siddhant.kumar.14/Test2/actions-runner/externals/node12/bin/node'
+[2021-07-01 10:12:43Z INFO ProcessInvokerWrapper]   Arguments: '"/home/siddhant.kumar.14/Test2/actions-runner/_work/_actions/actions/checkout/v2/dist/index.js"'
+[2021-07-01 10:12:43Z INFO ProcessInvokerWrapper]   Working directory: '/home/siddhant.kumar.14/Test2/actions-runner/_work/Test2/Test2'
+[2021-07-01 10:12:43Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-07-01 10:12:43Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-07-01 10:12:43Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2021-07-01 10:12:43Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-07-01 10:12:43Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-07-01 10:12:43Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-07-01 10:12:43Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2021-07-01 10:12:43Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 9557.
+[2021-07-01 10:12:43Z INFO ProcessInvokerWrapper] Process started with process id 9557, waiting for process exit.
+[2021-07-01 10:12:44Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a60052d4-79a0-5821-3eeb-84adb9872c5b', success rate: 1/1.
+[2021-07-01 10:12:44Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2021-07-01 10:12:44Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a60052d4-79a0-5821-3eeb-84adb9872c5b', success rate: 1/1.
+[2021-07-01 10:12:53Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:53Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:12:53Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:12:58Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a60052d4-79a0-5821-3eeb-84adb9872c5b', success rate: 1/1.
+[2021-07-01 10:12:59Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a60052d4-79a0-5821-3eeb-84adb9872c5b', success rate: 1/1.
+[2021-07-01 10:13:03Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:13:03Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:13:03Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:13:07Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a60052d4-79a0-5821-3eeb-84adb9872c5b', success rate: 1/1.
+[2021-07-01 10:13:08Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-07-01 10:13:08Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-07-01 10:13:08Z INFO ProcessInvokerWrapper] Finished process 9557 with exit code 0, and elapsed time 00:00:25.2986063.
+[2021-07-01 10:13:08Z INFO StepsRunner] Step result: 
+[2021-07-01 10:13:08Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2021-07-01 10:13:08Z INFO StepsRunner] Current state: job state = ''
+[2021-07-01 10:13:08Z INFO StepsRunner] Processing step: DisplayName='Run a one-line script'
+[2021-07-01 10:13:08Z INFO StepsRunner] Initialize Env context for step
+[2021-07-01 10:13:08Z INFO StepsRunner] Evaluating: success()
+[2021-07-01 10:13:08Z INFO StepsRunner] Result: true
+[2021-07-01 10:13:08Z INFO StepsRunner] Starting the step.
+[2021-07-01 10:13:08Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:13:08Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:13:08Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:13:08Z INFO HostContext] Well known directory 'Temp': '/home/siddhant.kumar.14/Test2/actions-runner/_work/_temp'
+[2021-07-01 10:13:08Z INFO ActionRunner] Write event payload to /home/siddhant.kumar.14/Test2/actions-runner/_work/_temp/_github_workflow/event.json
+[2021-07-01 10:13:08Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:13:08Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:13:08Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:13:08Z INFO HostContext] Well known directory 'Temp': '/home/siddhant.kumar.14/Test2/actions-runner/_work/_temp'
+[2021-07-01 10:13:08Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2021-07-01 10:13:08Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2021-07-01 10:13:08Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2021-07-01 10:13:08Z INFO ActionCommandManager] Register action command extension for command set-env
+[2021-07-01 10:13:08Z INFO ActionCommandManager] Register action command extension for command set-output
+[2021-07-01 10:13:08Z INFO ActionCommandManager] Register action command extension for command save-state
+[2021-07-01 10:13:08Z INFO ActionCommandManager] Register action command extension for command add-path
+[2021-07-01 10:13:08Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2021-07-01 10:13:08Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2021-07-01 10:13:08Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2021-07-01 10:13:08Z INFO ActionCommandManager] Register action command extension for command warning
+[2021-07-01 10:13:08Z INFO ActionCommandManager] Register action command extension for command error
+[2021-07-01 10:13:08Z INFO ActionCommandManager] Register action command extension for command debug
+[2021-07-01 10:13:08Z INFO ActionCommandManager] Register action command extension for command group
+[2021-07-01 10:13:08Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2021-07-01 10:13:08Z INFO ActionCommandManager] Register action command extension for command echo
+[2021-07-01 10:13:08Z INFO ScriptHandler] Which: 'bash'
+[2021-07-01 10:13:08Z INFO ScriptHandler] Location: '/bin/bash'
+[2021-07-01 10:13:08Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:13:08Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:13:08Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:13:08Z INFO HostContext] Well known directory 'Temp': '/home/siddhant.kumar.14/Test2/actions-runner/_work/_temp'
+[2021-07-01 10:13:08Z INFO ScriptHandler] Which: 'bash'
+[2021-07-01 10:13:08Z INFO ScriptHandler] Location: '/bin/bash'
+[2021-07-01 10:13:08Z INFO ProcessInvokerWrapper] Starting process:
+[2021-07-01 10:13:08Z INFO ProcessInvokerWrapper]   File name: '/bin/bash'
+[2021-07-01 10:13:08Z INFO ProcessInvokerWrapper]   Arguments: '-e /home/siddhant.kumar.14/Test2/actions-runner/_work/_temp/f3529cf1-c2aa-4754-aa8b-324803ac78dc.sh'
+[2021-07-01 10:13:08Z INFO ProcessInvokerWrapper]   Working directory: '/home/siddhant.kumar.14/Test2/actions-runner/_work/Test2/Test2'
+[2021-07-01 10:13:08Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-07-01 10:13:08Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-07-01 10:13:08Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2021-07-01 10:13:08Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-07-01 10:13:08Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-07-01 10:13:08Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-07-01 10:13:08Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2021-07-01 10:13:08Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 10278.
+[2021-07-01 10:13:08Z INFO ProcessInvokerWrapper] Process started with process id 10278, waiting for process exit.
+[2021-07-01 10:13:08Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'dd23db01-cff6-57a4-373a-5c8097a97333', success rate: 1/1.
+[2021-07-01 10:13:10Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2021-07-01 10:13:11Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'dd23db01-cff6-57a4-373a-5c8097a97333', success rate: 1/1.
+[2021-07-01 10:13:11Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'dd23db01-cff6-57a4-373a-5c8097a97333', success rate: 1/1.
+[2021-07-01 10:13:12Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'dd23db01-cff6-57a4-373a-5c8097a97333', success rate: 1/1.
+[2021-07-01 10:13:13Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:13:13Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:13:13Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:13:13Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'dd23db01-cff6-57a4-373a-5c8097a97333', success rate: 1/1.
+[2021-07-01 10:13:14Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'dd23db01-cff6-57a4-373a-5c8097a97333', success rate: 1/1.
+[2021-07-01 10:13:14Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'dd23db01-cff6-57a4-373a-5c8097a97333', success rate: 1/1.
+[2021-07-01 10:13:14Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'dd23db01-cff6-57a4-373a-5c8097a97333', success rate: 1/1.
+[2021-07-01 10:13:16Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'dd23db01-cff6-57a4-373a-5c8097a97333', success rate: 1/1.
+[2021-07-01 10:13:16Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-07-01 10:13:16Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-07-01 10:13:16Z INFO ProcessInvokerWrapper] Finished process 10278 with exit code 0, and elapsed time 00:00:08.1169219.
+[2021-07-01 10:13:16Z INFO StepsRunner] Step result: 
+[2021-07-01 10:13:16Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2021-07-01 10:13:16Z INFO StepsRunner] Current state: job state = ''
+[2021-07-01 10:13:16Z INFO StepsRunner] Processing step: DisplayName='Run a multi-line script'
+[2021-07-01 10:13:16Z INFO StepsRunner] Initialize Env context for step
+[2021-07-01 10:13:16Z INFO StepsRunner] Evaluating: success()
+[2021-07-01 10:13:16Z INFO StepsRunner] Result: true
+[2021-07-01 10:13:16Z INFO StepsRunner] Starting the step.
+[2021-07-01 10:13:16Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:13:16Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:13:16Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:13:16Z INFO HostContext] Well known directory 'Temp': '/home/siddhant.kumar.14/Test2/actions-runner/_work/_temp'
+[2021-07-01 10:13:16Z INFO ActionRunner] Write event payload to /home/siddhant.kumar.14/Test2/actions-runner/_work/_temp/_github_workflow/event.json
+[2021-07-01 10:13:16Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:13:16Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:13:16Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:13:16Z INFO HostContext] Well known directory 'Temp': '/home/siddhant.kumar.14/Test2/actions-runner/_work/_temp'
+[2021-07-01 10:13:16Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2021-07-01 10:13:16Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2021-07-01 10:13:16Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2021-07-01 10:13:16Z INFO ActionCommandManager] Register action command extension for command set-env
+[2021-07-01 10:13:16Z INFO ActionCommandManager] Register action command extension for command set-output
+[2021-07-01 10:13:16Z INFO ActionCommandManager] Register action command extension for command save-state
+[2021-07-01 10:13:16Z INFO ActionCommandManager] Register action command extension for command add-path
+[2021-07-01 10:13:16Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2021-07-01 10:13:16Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2021-07-01 10:13:16Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2021-07-01 10:13:16Z INFO ActionCommandManager] Register action command extension for command warning
+[2021-07-01 10:13:16Z INFO ActionCommandManager] Register action command extension for command error
+[2021-07-01 10:13:16Z INFO ActionCommandManager] Register action command extension for command debug
+[2021-07-01 10:13:16Z INFO ActionCommandManager] Register action command extension for command group
+[2021-07-01 10:13:16Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2021-07-01 10:13:16Z INFO ActionCommandManager] Register action command extension for command echo
+[2021-07-01 10:13:16Z INFO ScriptHandler] Which: 'bash'
+[2021-07-01 10:13:16Z INFO ScriptHandler] Location: '/bin/bash'
+[2021-07-01 10:13:16Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:13:16Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:13:16Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:13:16Z INFO HostContext] Well known directory 'Temp': '/home/siddhant.kumar.14/Test2/actions-runner/_work/_temp'
+[2021-07-01 10:13:16Z INFO ScriptHandler] Which: 'bash'
+[2021-07-01 10:13:16Z INFO ScriptHandler] Location: '/bin/bash'
+[2021-07-01 10:13:16Z INFO ProcessInvokerWrapper] Starting process:
+[2021-07-01 10:13:16Z INFO ProcessInvokerWrapper]   File name: '/bin/bash'
+[2021-07-01 10:13:16Z INFO ProcessInvokerWrapper]   Arguments: '-e /home/siddhant.kumar.14/Test2/actions-runner/_work/_temp/7b84f540-84c1-4adf-ae13-43d03d56c889.sh'
+[2021-07-01 10:13:16Z INFO ProcessInvokerWrapper]   Working directory: '/home/siddhant.kumar.14/Test2/actions-runner/_work/Test2/Test2'
+[2021-07-01 10:13:16Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-07-01 10:13:16Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-07-01 10:13:16Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2021-07-01 10:13:16Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-07-01 10:13:16Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-07-01 10:13:16Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-07-01 10:13:16Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2021-07-01 10:13:16Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 10426.
+[2021-07-01 10:13:16Z INFO ProcessInvokerWrapper] Process started with process id 10426, waiting for process exit.
+[2021-07-01 10:13:16Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:17Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2021-07-01 10:13:20Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:20Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:20Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:21Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:21Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:21Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:22Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:23Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:13:23Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:13:23Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:13:24Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:24Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:25Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:26Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:27Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:27Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:28Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:29Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:29Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:29Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:30Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:30Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:33Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:13:33Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:13:33Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:13:34Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:35Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:35Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:37Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:40Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:41Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:41Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:41Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:43Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:13:43Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:13:43Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:13:43Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:43Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:44Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:44Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:45Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:45Z INFO JobServerQueue] Stop aggressive process web console line queue.
+[2021-07-01 10:13:49Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:49Z INFO JobServerQueue] Try to append 1 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 1/1.
+[2021-07-01 10:13:53Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:13:53Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:13:53Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:13:53Z INFO JobServerQueue] Try to append 3 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 3/3.
+[2021-07-01 10:13:54Z INFO JobServerQueue] Try to append 6 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 6/6.
+[2021-07-01 10:13:55Z INFO JobServerQueue] Try to append 6 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 6/6.
+[2021-07-01 10:13:55Z INFO JobServerQueue] Try to append 6 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 6/6.
+[2021-07-01 10:13:56Z INFO JobServerQueue] Try to append 6 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 6/6.
+[2021-07-01 10:13:57Z INFO JobServerQueue] Try to append 6 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 6/6.
+[2021-07-01 10:13:57Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-07-01 10:13:57Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-07-01 10:13:57Z INFO ProcessInvokerWrapper] Finished process 10426 with exit code 0, and elapsed time 00:00:40.8772703.
+[2021-07-01 10:13:57Z INFO StepsRunner] Step result: 
+[2021-07-01 10:13:57Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2021-07-01 10:13:57Z INFO StepsRunner] Current state: job state = ''
+[2021-07-01 10:13:57Z INFO StepsRunner] Processing step: DisplayName='Post Run actions/checkout@v2'
+[2021-07-01 10:13:57Z INFO StepsRunner] Initialize Env context for step
+[2021-07-01 10:13:57Z INFO StepsRunner] Evaluating: always()
+[2021-07-01 10:13:57Z INFO StepsRunner] Result: true
+[2021-07-01 10:13:57Z INFO StepsRunner] Starting the step.
+[2021-07-01 10:13:57Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:13:57Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:13:57Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:13:57Z INFO HostContext] Well known directory 'Actions': '/home/siddhant.kumar.14/Test2/actions-runner/_work/_actions'
+[2021-07-01 10:13:57Z INFO ActionManager] Load action that reference repository from '/home/siddhant.kumar.14/Test2/actions-runner/_work/_actions/actions/checkout/v2'
+[2021-07-01 10:13:57Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:13:57Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:13:57Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:13:57Z INFO HostContext] Well known directory 'Actions': '/home/siddhant.kumar.14/Test2/actions-runner/_work/_actions'
+[2021-07-01 10:13:57Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 58,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 62,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2021-07-01 10:13:57Z INFO ActionManager] Action pre node.js file: N/A.
+[2021-07-01 10:13:57Z INFO ActionManager] Action node.js file: dist/index.js.
+[2021-07-01 10:13:57Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2021-07-01 10:13:57Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:13:57Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:13:57Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:13:57Z INFO HostContext] Well known directory 'Temp': '/home/siddhant.kumar.14/Test2/actions-runner/_work/_temp'
+[2021-07-01 10:13:57Z INFO ActionRunner] Write event payload to /home/siddhant.kumar.14/Test2/actions-runner/_work/_temp/_github_workflow/event.json
+[2021-07-01 10:13:57Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:13:57Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:13:57Z INFO HostContext] Well known directory 'Work': '/home/siddhant.kumar.14/Test2/actions-runner/_work'
+[2021-07-01 10:13:57Z INFO HostContext] Well known directory 'Temp': '/home/siddhant.kumar.14/Test2/actions-runner/_work/_temp'
+[2021-07-01 10:13:57Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2021-07-01 10:13:57Z INFO ActionManifestManager] Input 'repository': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 6,
+  "col": 14,
+  "lit": "SiddhantKumar14/Test2"
+}
+[2021-07-01 10:13:57Z INFO ActionManifestManager] Input 'ref': default value evaluate result: ""
+[2021-07-01 10:13:57Z INFO ActionManifestManager] Input 'token': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 24,
+  "col": 14,
+  "lit": "***"
+}
+[2021-07-01 10:13:57Z INFO ActionManifestManager] Input 'ssh-key': default value evaluate result: ""
+[2021-07-01 10:13:57Z INFO ActionManifestManager] Input 'ssh-known-hosts': default value evaluate result: ""
+[2021-07-01 10:13:57Z INFO ActionManifestManager] Input 'ssh-strict': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 47,
+  "col": 14,
+  "lit": "true"
+}
+[2021-07-01 10:13:57Z INFO ActionManifestManager] Input 'persist-credentials': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 50,
+  "col": 14,
+  "lit": "true"
+}
+[2021-07-01 10:13:57Z INFO ActionManifestManager] Input 'path': default value evaluate result: ""
+[2021-07-01 10:13:57Z INFO ActionManifestManager] Input 'clean': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 55,
+  "col": 14,
+  "lit": "true"
+}
+[2021-07-01 10:13:57Z INFO ActionManifestManager] Input 'fetch-depth': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 58,
+  "col": 14,
+  "lit": "1"
+}
+[2021-07-01 10:13:57Z INFO ActionManifestManager] Input 'lfs': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 61,
+  "col": 14,
+  "lit": "false"
+}
+[2021-07-01 10:13:57Z INFO ActionManifestManager] Input 'submodules': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 70,
+  "col": 14,
+  "lit": "false"
+}
+[2021-07-01 10:13:57Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2021-07-01 10:13:57Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2021-07-01 10:13:57Z INFO ActionCommandManager] Register action command extension for command set-env
+[2021-07-01 10:13:57Z INFO ActionCommandManager] Register action command extension for command set-output
+[2021-07-01 10:13:57Z INFO ActionCommandManager] Register action command extension for command save-state
+[2021-07-01 10:13:57Z INFO ActionCommandManager] Register action command extension for command add-path
+[2021-07-01 10:13:57Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2021-07-01 10:13:57Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2021-07-01 10:13:57Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2021-07-01 10:13:57Z INFO ActionCommandManager] Register action command extension for command warning
+[2021-07-01 10:13:57Z INFO ActionCommandManager] Register action command extension for command error
+[2021-07-01 10:13:57Z INFO ActionCommandManager] Register action command extension for command debug
+[2021-07-01 10:13:57Z INFO ActionCommandManager] Register action command extension for command group
+[2021-07-01 10:13:57Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2021-07-01 10:13:57Z INFO ActionCommandManager] Register action command extension for command echo
+[2021-07-01 10:13:57Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:13:57Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:13:57Z INFO HostContext] Well known directory 'Externals': '/home/siddhant.kumar.14/Test2/actions-runner/externals'
+[2021-07-01 10:13:57Z INFO ProcessInvokerWrapper] Starting process:
+[2021-07-01 10:13:57Z INFO ProcessInvokerWrapper]   File name: '/home/siddhant.kumar.14/Test2/actions-runner/externals/node12/bin/node'
+[2021-07-01 10:13:57Z INFO ProcessInvokerWrapper]   Arguments: '"/home/siddhant.kumar.14/Test2/actions-runner/_work/_actions/actions/checkout/v2/dist/index.js"'
+[2021-07-01 10:13:57Z INFO ProcessInvokerWrapper]   Working directory: '/home/siddhant.kumar.14/Test2/actions-runner/_work/Test2/Test2'
+[2021-07-01 10:13:57Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-07-01 10:13:57Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-07-01 10:13:57Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2021-07-01 10:13:57Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-07-01 10:13:57Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-07-01 10:13:57Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-07-01 10:13:57Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2021-07-01 10:13:57Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 11202.
+[2021-07-01 10:13:57Z INFO ProcessInvokerWrapper] Process started with process id 11202, waiting for process exit.
+[2021-07-01 10:13:57Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-07-01 10:13:57Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-07-01 10:13:57Z INFO ProcessInvokerWrapper] Finished process 11202 with exit code 0, and elapsed time 00:00:00.2648241.
+[2021-07-01 10:13:57Z INFO StepsRunner] Step result: 
+[2021-07-01 10:13:57Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2021-07-01 10:13:57Z INFO StepsRunner] Current state: job state = ''
+[2021-07-01 10:13:57Z INFO JobRunner] Finalize job.
+[2021-07-01 10:13:57Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:13:57Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-01 10:13:57Z INFO HostContext] Well known directory 'Diag': '/home/siddhant.kumar.14/Test2/actions-runner/_diag'
+[2021-07-01 10:13:57Z INFO JobExtension] Initialize Env context
+[2021-07-01 10:13:57Z INFO JobExtension] Initialize steps context
+[2021-07-01 10:13:58Z INFO JobServerQueue] Try to append 6 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 6/6.
+[2021-07-01 10:13:58Z INFO JobExtension] Total accessible running process: 203.
+[2021-07-01 10:13:58Z INFO JobExtension] Inspecting process environment variables. PID: 11212 (watch)
+[2021-07-01 10:13:58Z INFO LinuxProcessExtensions] Read env from /proc/11212/environ
+[2021-07-01 10:13:58Z WARN JobExtension] Ignore exception during read process environment variables: Access to the path '/proc/11212/environ' is denied.
+[2021-07-01 10:13:58Z INFO JobExtension] Inspecting process environment variables. PID: 11213 (sh)
+[2021-07-01 10:13:58Z INFO LinuxProcessExtensions] Read env from /proc/11213/environ
+[2021-07-01 10:13:58Z WARN JobExtension] Ignore exception during read process environment variables: Could not find a part of the path '/proc/11213/environ'.
+[2021-07-01 10:13:58Z INFO JobExtension] Inspecting process environment variables. PID: 11214 (nvidia-smi)
+[2021-07-01 10:13:58Z INFO LinuxProcessExtensions] Read env from /proc/11214/environ
+[2021-07-01 10:13:58Z WARN JobExtension] Ignore exception during read process environment variables: Could not find a part of the path '/proc/11214/environ'.
+[2021-07-01 10:13:58Z INFO JobExtension] Inspecting process environment variables. PID: 11215 (watch)
+[2021-07-01 10:13:58Z INFO LinuxProcessExtensions] Read env from /proc/11215/environ
+[2021-07-01 10:13:58Z WARN JobExtension] Ignore exception during read process environment variables: Access to the path '/proc/11215/environ' is denied.
+[2021-07-01 10:13:58Z INFO JobExtension] Inspecting process environment variables. PID: 11216 (sh)
+[2021-07-01 10:13:58Z INFO LinuxProcessExtensions] Read env from /proc/11216/environ
+[2021-07-01 10:13:58Z WARN JobExtension] Ignore exception during read process environment variables: Access to the path '/proc/11216/environ' is denied.
+[2021-07-01 10:13:58Z INFO JobExtension] Inspecting process environment variables. PID: 11217 (nvidia-smi)
+[2021-07-01 10:13:58Z INFO LinuxProcessExtensions] Read env from /proc/11217/environ
+[2021-07-01 10:13:58Z WARN JobExtension] Ignore exception during read process environment variables: Access to the path '/proc/11217/environ' is denied.
+[2021-07-01 10:13:58Z INFO JobRunner] Job result after all job steps finish: Succeeded
+[2021-07-01 10:13:58Z INFO JobRunner] Completing the job execution context.
+[2021-07-01 10:13:58Z INFO JobRunner] Shutting down the job server queue.
+[2021-07-01 10:13:58Z INFO JobServerQueue] Fire signal to shutdown all queues.
+[2021-07-01 10:13:58Z INFO JobServerQueue] All queue process task stopped.
+[2021-07-01 10:13:58Z INFO JobServerQueue] Skip 11 batches web console lines for last run
+[2021-07-01 10:13:58Z INFO JobServerQueue] Try to append 2 batches web console lines for record '87b991c0-db8a-593e-4233-d8a37f15e4c9', success rate: 2/2.
+[2021-07-01 10:13:58Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'ffc2674a-ea91-4b63-aa98-83a9859a3fcf', success rate: 1/1.
+[2021-07-01 10:13:58Z INFO JobServerQueue] Try to append 1 batches web console lines for record '0941a931-7bc1-4995-8f26-de2cc4e448d2', success rate: 1/1.
+[2021-07-01 10:13:58Z INFO JobServerQueue] Web console line queue drained.
+[2021-07-01 10:13:58Z INFO JobServerQueue] Uploading 4 files in one shot.
+[2021-07-01 10:13:59Z INFO JobServerQueue] Try to upload 4 log files or attachments, success rate: 4/4.
+[2021-07-01 10:13:59Z INFO JobServerQueue] File upload queue drained.
+[2021-07-01 10:13:59Z INFO JobServerQueue] Timeline update queue drained.
+[2021-07-01 10:13:59Z INFO JobServerQueue] All queue process tasks have been stopped, and all queues are drained.
+[2021-07-01 10:13:59Z INFO TempDirectoryManager] Cleaning runner temp folder: /home/siddhant.kumar.14/Test2/actions-runner/_work/_temp
+[2021-07-01 10:13:59Z INFO JobRunner] Raising job completed event.
+[2021-07-01 10:13:59Z INFO Worker] Job completed.

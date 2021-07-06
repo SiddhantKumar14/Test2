@@ -122,3 +122,260 @@ Date: Thu, 01 Jul 2021 10:08:45 GMT
 [2021-07-01 10:08:45Z INFO MessageListener] Session created.
 [2021-07-01 10:08:45Z INFO Terminal] WRITE LINE: 2021-07-01 10:08:45Z: Listening for Jobs
 [2021-07-01 10:08:45Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2021-07-01 10:12:39Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/siddhant.kumar.14/Test2/actions-runner/.credentials_rsaparams
+[2021-07-01 10:12:39Z INFO MessageListener] Message '1' received from session '4b5ee09a-05d2-48e2-88e7-11304922003e'.
+[2021-07-01 10:12:39Z INFO JobDispatcher] Job request 1 for plan 75a5dd25-e92b-46bf-aa1e-e1c0235d0465 job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2021-07-01 10:12:39Z INFO JobDispatcher] Pull OrchestrationId 75a5dd25-e92b-46bf-aa1e-e1c0235d0465.build.__default from JWT claims
+[2021-07-01 10:12:39Z INFO Terminal] WRITE LINE: 2021-07-01 10:12:39Z: Running job: build
+[2021-07-01 10:12:39Z INFO JobDispatcher] Start renew job request 1 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-01 10:12:40Z INFO JobDispatcher] Successfully renew job request 1, job is valid till 7/1/2021 10:22:39 AM
+[2021-07-01 10:12:40Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:40Z INFO ProcessInvokerWrapper] Starting process:
+[2021-07-01 10:12:40Z INFO ProcessInvokerWrapper]   File name: '/home/siddhant.kumar.14/Test2/actions-runner/bin/Runner.Worker'
+[2021-07-01 10:12:40Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 100 103'
+[2021-07-01 10:12:40Z INFO ProcessInvokerWrapper]   Working directory: '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:12:40Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-07-01 10:12:40Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-07-01 10:12:40Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2021-07-01 10:12:40Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-07-01 10:12:40Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-07-01 10:12:40Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-07-01 10:12:40Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2021-07-01 10:12:40Z INFO ProcessInvokerWrapper] Process started with process id 9433, waiting for process exit.
+[2021-07-01 10:12:40Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-01 10:12:40Z INFO JobNotification] Entering JobStarted Notification
+[2021-07-01 10:12:40Z INFO JobNotification] Entering StartMonitor
+[2021-07-01 10:13:40Z INFO JobDispatcher] Successfully renew job request 1, job is valid till 7/1/2021 10:23:40 AM
+[2021-07-01 10:13:59Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-07-01 10:13:59Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-07-01 10:13:59Z INFO ProcessInvokerWrapper] Finished process 9433 with exit code 100, and elapsed time 00:01:19.7345128.
+[2021-07-01 10:13:59Z INFO JobDispatcher] Worker finished for job ca395085-040a-526b-2ce8-bdc85f692774. Code: 100
+[2021-07-01 10:13:59Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Succeeded
+[2021-07-01 10:13:59Z INFO Terminal] WRITE LINE: 2021-07-01 10:13:59Z: Job build completed with result: Succeeded
+[2021-07-01 10:13:59Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-01 10:13:59Z INFO JobDispatcher] job renew has been canceled, stop renew job request 1.
+[2021-07-01 10:13:59Z INFO JobNotification] Entering JobCompleted Notification
+[2021-07-01 10:13:59Z INFO JobNotification] Entering EndMonitor
+[2021-07-01 10:14:02Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/siddhant.kumar.14/Test2/actions-runner/.credentials_rsaparams
+[2021-07-01 10:14:02Z INFO MessageListener] Message '2' received from session '4b5ee09a-05d2-48e2-88e7-11304922003e'.
+[2021-07-01 10:14:02Z INFO JobDispatcher] Job request 2 for plan 625892bc-fa1d-49c5-a83e-bffcb73bbf5a job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2021-07-01 10:14:02Z INFO JobDispatcher] Pull OrchestrationId 625892bc-fa1d-49c5-a83e-bffcb73bbf5a.build.__default from JWT claims
+[2021-07-01 10:14:02Z INFO JobDispatcher] Job request ca395085-040a-526b-2ce8-bdc85f692774 processed succeed.
+[2021-07-01 10:14:02Z INFO Terminal] WRITE LINE: 2021-07-01 10:14:02Z: Running job: build
+[2021-07-01 10:14:02Z INFO JobDispatcher] Start renew job request 2 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-01 10:14:02Z INFO JobDispatcher] Successfully renew job request 2, job is valid till 7/1/2021 10:24:02 AM
+[2021-07-01 10:14:02Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:14:02Z INFO ProcessInvokerWrapper] Starting process:
+[2021-07-01 10:14:02Z INFO ProcessInvokerWrapper]   File name: '/home/siddhant.kumar.14/Test2/actions-runner/bin/Runner.Worker'
+[2021-07-01 10:14:02Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 100 103'
+[2021-07-01 10:14:02Z INFO ProcessInvokerWrapper]   Working directory: '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:14:02Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-07-01 10:14:02Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-07-01 10:14:02Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2021-07-01 10:14:02Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-07-01 10:14:02Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-07-01 10:14:02Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-07-01 10:14:02Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2021-07-01 10:14:02Z INFO ProcessInvokerWrapper] Process started with process id 11324, waiting for process exit.
+[2021-07-01 10:14:02Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-01 10:14:02Z INFO JobNotification] Entering JobStarted Notification
+[2021-07-01 10:14:02Z INFO JobNotification] Entering StartMonitor
+[2021-07-01 10:15:02Z INFO JobDispatcher] Successfully renew job request 2, job is valid till 7/1/2021 10:25:02 AM
+[2021-07-01 10:15:13Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-07-01 10:15:13Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-07-01 10:15:13Z INFO ProcessInvokerWrapper] Finished process 11324 with exit code 102, and elapsed time 00:01:10.8331421.
+[2021-07-01 10:15:13Z INFO JobDispatcher] Worker finished for job ca395085-040a-526b-2ce8-bdc85f692774. Code: 102
+[2021-07-01 10:15:13Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Failed
+[2021-07-01 10:15:13Z INFO Terminal] WRITE LINE: 2021-07-01 10:15:13Z: Job build completed with result: Failed
+[2021-07-01 10:15:13Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-01 10:15:13Z INFO JobDispatcher] job renew has been canceled, stop renew job request 2.
+[2021-07-01 10:15:13Z INFO JobNotification] Entering JobCompleted Notification
+[2021-07-01 10:15:13Z INFO JobNotification] Entering EndMonitor
+[2021-07-01 10:15:16Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/siddhant.kumar.14/Test2/actions-runner/.credentials_rsaparams
+[2021-07-01 10:15:16Z INFO MessageListener] Message '3' received from session '4b5ee09a-05d2-48e2-88e7-11304922003e'.
+[2021-07-01 10:15:16Z INFO JobDispatcher] Job request 3 for plan dc63879a-5e8a-4905-a13c-299128aef0bc job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2021-07-01 10:15:16Z INFO JobDispatcher] Pull OrchestrationId dc63879a-5e8a-4905-a13c-299128aef0bc.build.__default from JWT claims
+[2021-07-01 10:15:16Z INFO JobDispatcher] Job request ca395085-040a-526b-2ce8-bdc85f692774 processed succeed.
+[2021-07-01 10:15:16Z INFO Terminal] WRITE LINE: 2021-07-01 10:15:16Z: Running job: build
+[2021-07-01 10:15:16Z INFO JobDispatcher] Start renew job request 3 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-01 10:15:16Z INFO JobDispatcher] Successfully renew job request 3, job is valid till 7/1/2021 10:25:16 AM
+[2021-07-01 10:15:16Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:15:16Z INFO ProcessInvokerWrapper] Starting process:
+[2021-07-01 10:15:16Z INFO ProcessInvokerWrapper]   File name: '/home/siddhant.kumar.14/Test2/actions-runner/bin/Runner.Worker'
+[2021-07-01 10:15:16Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 100 103'
+[2021-07-01 10:15:16Z INFO ProcessInvokerWrapper]   Working directory: '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:15:16Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-07-01 10:15:16Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-07-01 10:15:16Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2021-07-01 10:15:16Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-07-01 10:15:16Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-07-01 10:15:16Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-07-01 10:15:16Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2021-07-01 10:15:16Z INFO ProcessInvokerWrapper] Process started with process id 12747, waiting for process exit.
+[2021-07-01 10:15:16Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-01 10:15:16Z INFO JobNotification] Entering JobStarted Notification
+[2021-07-01 10:15:16Z INFO JobNotification] Entering StartMonitor
+[2021-07-01 10:16:16Z INFO JobDispatcher] Successfully renew job request 3, job is valid till 7/1/2021 10:26:16 AM
+[2021-07-01 10:17:15Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-07-01 10:17:15Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-07-01 10:17:15Z INFO ProcessInvokerWrapper] Finished process 12747 with exit code 100, and elapsed time 00:01:58.6168010.
+[2021-07-01 10:17:15Z INFO JobDispatcher] Worker finished for job ca395085-040a-526b-2ce8-bdc85f692774. Code: 100
+[2021-07-01 10:17:15Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Succeeded
+[2021-07-01 10:17:15Z INFO Terminal] WRITE LINE: 2021-07-01 10:17:15Z: Job build completed with result: Succeeded
+[2021-07-01 10:17:15Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-01 10:17:15Z INFO JobDispatcher] job renew has been canceled, stop renew job request 3.
+[2021-07-01 10:17:15Z INFO JobNotification] Entering JobCompleted Notification
+[2021-07-01 10:17:15Z INFO JobNotification] Entering EndMonitor
+[2021-07-01 10:17:17Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/siddhant.kumar.14/Test2/actions-runner/.credentials_rsaparams
+[2021-07-01 10:17:17Z INFO MessageListener] Message '4' received from session '4b5ee09a-05d2-48e2-88e7-11304922003e'.
+[2021-07-01 10:17:17Z INFO JobDispatcher] Job request 4 for plan 492f5eff-8c31-4e8b-94a0-82878228d176 job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2021-07-01 10:17:17Z INFO JobDispatcher] Pull OrchestrationId 492f5eff-8c31-4e8b-94a0-82878228d176.build.__default from JWT claims
+[2021-07-01 10:17:17Z INFO JobDispatcher] Job request ca395085-040a-526b-2ce8-bdc85f692774 processed succeed.
+[2021-07-01 10:17:17Z INFO Terminal] WRITE LINE: 2021-07-01 10:17:17Z: Running job: build
+[2021-07-01 10:17:17Z INFO JobDispatcher] Start renew job request 4 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-01 10:17:17Z INFO JobDispatcher] Successfully renew job request 4, job is valid till 7/1/2021 10:27:17 AM
+[2021-07-01 10:17:17Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:17:17Z INFO ProcessInvokerWrapper] Starting process:
+[2021-07-01 10:17:17Z INFO ProcessInvokerWrapper]   File name: '/home/siddhant.kumar.14/Test2/actions-runner/bin/Runner.Worker'
+[2021-07-01 10:17:17Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 100 103'
+[2021-07-01 10:17:17Z INFO ProcessInvokerWrapper]   Working directory: '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:17:17Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-07-01 10:17:17Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-07-01 10:17:17Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2021-07-01 10:17:17Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-07-01 10:17:17Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-07-01 10:17:17Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-07-01 10:17:17Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2021-07-01 10:17:17Z INFO ProcessInvokerWrapper] Process started with process id 15050, waiting for process exit.
+[2021-07-01 10:17:17Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-01 10:17:17Z INFO JobNotification] Entering JobStarted Notification
+[2021-07-01 10:17:17Z INFO JobNotification] Entering StartMonitor
+[2021-07-01 10:18:17Z INFO JobDispatcher] Successfully renew job request 4, job is valid till 7/1/2021 10:28:17 AM
+[2021-07-01 10:19:17Z INFO JobDispatcher] Successfully renew job request 4, job is valid till 7/1/2021 10:29:17 AM
+[2021-07-01 10:19:56Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-07-01 10:19:56Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-07-01 10:19:56Z INFO ProcessInvokerWrapper] Finished process 15050 with exit code 100, and elapsed time 00:02:38.3830269.
+[2021-07-01 10:19:56Z INFO JobDispatcher] Worker finished for job ca395085-040a-526b-2ce8-bdc85f692774. Code: 100
+[2021-07-01 10:19:56Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Succeeded
+[2021-07-01 10:19:56Z INFO Terminal] WRITE LINE: 2021-07-01 10:19:56Z: Job build completed with result: Succeeded
+[2021-07-01 10:19:56Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-01 10:19:56Z INFO JobDispatcher] job renew has been canceled, stop renew job request 4.
+[2021-07-01 10:19:56Z INFO JobNotification] Entering JobCompleted Notification
+[2021-07-01 10:19:56Z INFO JobNotification] Entering EndMonitor
+[2021-07-01 10:19:58Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/siddhant.kumar.14/Test2/actions-runner/.credentials_rsaparams
+[2021-07-01 10:19:58Z INFO MessageListener] Message '5' received from session '4b5ee09a-05d2-48e2-88e7-11304922003e'.
+[2021-07-01 10:19:58Z INFO JobDispatcher] Job request 5 for plan 4486b3bf-f33a-4359-a18b-ecb1951bf9b0 job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2021-07-01 10:19:58Z INFO JobDispatcher] Pull OrchestrationId 4486b3bf-f33a-4359-a18b-ecb1951bf9b0.build.__default from JWT claims
+[2021-07-01 10:19:58Z INFO JobDispatcher] Job request ca395085-040a-526b-2ce8-bdc85f692774 processed succeed.
+[2021-07-01 10:19:58Z INFO Terminal] WRITE LINE: 2021-07-01 10:19:58Z: Running job: build
+[2021-07-01 10:19:58Z INFO JobDispatcher] Start renew job request 5 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-01 10:19:58Z INFO JobDispatcher] Successfully renew job request 5, job is valid till 7/1/2021 10:29:58 AM
+[2021-07-01 10:19:58Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:19:58Z INFO ProcessInvokerWrapper] Starting process:
+[2021-07-01 10:19:58Z INFO ProcessInvokerWrapper]   File name: '/home/siddhant.kumar.14/Test2/actions-runner/bin/Runner.Worker'
+[2021-07-01 10:19:58Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 100 103'
+[2021-07-01 10:19:58Z INFO ProcessInvokerWrapper]   Working directory: '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:19:58Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-07-01 10:19:58Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-07-01 10:19:58Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2021-07-01 10:19:58Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-07-01 10:19:58Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-07-01 10:19:58Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-07-01 10:19:58Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2021-07-01 10:19:58Z INFO ProcessInvokerWrapper] Process started with process id 18257, waiting for process exit.
+[2021-07-01 10:19:58Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-01 10:19:58Z INFO JobNotification] Entering JobStarted Notification
+[2021-07-01 10:19:58Z INFO JobNotification] Entering StartMonitor
+[2021-07-01 10:20:58Z INFO JobDispatcher] Successfully renew job request 5, job is valid till 7/1/2021 10:30:58 AM
+[2021-07-01 10:21:58Z INFO JobDispatcher] Successfully renew job request 5, job is valid till 7/1/2021 10:31:58 AM
+[2021-07-01 10:22:19Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-07-01 10:22:19Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-07-01 10:22:19Z INFO ProcessInvokerWrapper] Finished process 18257 with exit code 100, and elapsed time 00:02:20.6965753.
+[2021-07-01 10:22:19Z INFO JobDispatcher] Worker finished for job ca395085-040a-526b-2ce8-bdc85f692774. Code: 100
+[2021-07-01 10:22:19Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Succeeded
+[2021-07-01 10:22:19Z INFO Terminal] WRITE LINE: 2021-07-01 10:22:19Z: Job build completed with result: Succeeded
+[2021-07-01 10:22:19Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-01 10:22:19Z INFO JobDispatcher] job renew has been canceled, stop renew job request 5.
+[2021-07-01 10:22:19Z INFO JobNotification] Entering JobCompleted Notification
+[2021-07-01 10:22:19Z INFO JobNotification] Entering EndMonitor
+[2021-07-01 10:22:22Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/siddhant.kumar.14/Test2/actions-runner/.credentials_rsaparams
+[2021-07-01 10:22:22Z INFO MessageListener] Message '6' received from session '4b5ee09a-05d2-48e2-88e7-11304922003e'.
+[2021-07-01 10:22:22Z INFO JobDispatcher] Job request 6 for plan 331c415e-a163-43d2-a0c8-fa0656bcd048 job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2021-07-01 10:22:22Z INFO JobDispatcher] Pull OrchestrationId 331c415e-a163-43d2-a0c8-fa0656bcd048.build.__default from JWT claims
+[2021-07-01 10:22:22Z INFO JobDispatcher] Job request ca395085-040a-526b-2ce8-bdc85f692774 processed succeed.
+[2021-07-01 10:22:22Z INFO Terminal] WRITE LINE: 2021-07-01 10:22:22Z: Running job: build
+[2021-07-01 10:22:22Z INFO JobDispatcher] Start renew job request 6 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-01 10:22:22Z INFO JobDispatcher] Successfully renew job request 6, job is valid till 7/1/2021 10:32:22 AM
+[2021-07-01 10:22:22Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:22:22Z INFO ProcessInvokerWrapper] Starting process:
+[2021-07-01 10:22:22Z INFO ProcessInvokerWrapper]   File name: '/home/siddhant.kumar.14/Test2/actions-runner/bin/Runner.Worker'
+[2021-07-01 10:22:22Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 101 105'
+[2021-07-01 10:22:22Z INFO ProcessInvokerWrapper]   Working directory: '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:22:22Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-07-01 10:22:22Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-07-01 10:22:22Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2021-07-01 10:22:22Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-07-01 10:22:22Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-07-01 10:22:22Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-07-01 10:22:22Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2021-07-01 10:22:22Z INFO ProcessInvokerWrapper] Process started with process id 22582, waiting for process exit.
+[2021-07-01 10:22:22Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-01 10:22:22Z INFO JobNotification] Entering JobStarted Notification
+[2021-07-01 10:22:22Z INFO JobNotification] Entering StartMonitor
+[2021-07-01 10:23:22Z INFO JobDispatcher] Successfully renew job request 6, job is valid till 7/1/2021 10:33:22 AM
+[2021-07-01 10:24:23Z INFO JobDispatcher] Successfully renew job request 6, job is valid till 7/1/2021 10:34:22 AM
+[2021-07-01 10:25:23Z INFO JobDispatcher] Successfully renew job request 6, job is valid till 7/1/2021 10:35:23 AM
+[2021-07-01 10:25:31Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-07-01 10:25:31Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-07-01 10:25:31Z INFO ProcessInvokerWrapper] Finished process 22582 with exit code 100, and elapsed time 00:03:08.9750502.
+[2021-07-01 10:25:31Z INFO JobDispatcher] Worker finished for job ca395085-040a-526b-2ce8-bdc85f692774. Code: 100
+[2021-07-01 10:25:31Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Succeeded
+[2021-07-01 10:25:31Z INFO Terminal] WRITE LINE: 2021-07-01 10:25:31Z: Job build completed with result: Succeeded
+[2021-07-01 10:25:31Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-01 10:25:31Z INFO JobDispatcher] job renew has been canceled, stop renew job request 6.
+[2021-07-01 10:25:31Z INFO JobNotification] Entering JobCompleted Notification
+[2021-07-01 10:25:31Z INFO JobNotification] Entering EndMonitor
+[2021-07-01 10:25:35Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/siddhant.kumar.14/Test2/actions-runner/.credentials_rsaparams
+[2021-07-01 10:25:35Z INFO MessageListener] Message '7' received from session '4b5ee09a-05d2-48e2-88e7-11304922003e'.
+[2021-07-01 10:25:35Z INFO JobDispatcher] Job request 7 for plan a505c2ce-2ce7-4e09-aecd-9275a2ab0ed6 job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2021-07-01 10:25:35Z INFO JobDispatcher] Pull OrchestrationId a505c2ce-2ce7-4e09-aecd-9275a2ab0ed6.build.__default from JWT claims
+[2021-07-01 10:25:35Z INFO JobDispatcher] Job request ca395085-040a-526b-2ce8-bdc85f692774 processed succeed.
+[2021-07-01 10:25:35Z INFO Terminal] WRITE LINE: 2021-07-01 10:25:35Z: Running job: build
+[2021-07-01 10:25:35Z INFO JobDispatcher] Start renew job request 7 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-01 10:25:35Z INFO JobDispatcher] Successfully renew job request 7, job is valid till 7/1/2021 10:35:35 AM
+[2021-07-01 10:25:35Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:25:35Z INFO ProcessInvokerWrapper] Starting process:
+[2021-07-01 10:25:35Z INFO ProcessInvokerWrapper]   File name: '/home/siddhant.kumar.14/Test2/actions-runner/bin/Runner.Worker'
+[2021-07-01 10:25:35Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 101 105'
+[2021-07-01 10:25:35Z INFO ProcessInvokerWrapper]   Working directory: '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-01 10:25:35Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-07-01 10:25:35Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-07-01 10:25:35Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2021-07-01 10:25:35Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-07-01 10:25:35Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-07-01 10:25:35Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-07-01 10:25:35Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2021-07-01 10:25:35Z INFO ProcessInvokerWrapper] Process started with process id 28030, waiting for process exit.
+[2021-07-01 10:25:35Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-01 10:25:35Z INFO JobNotification] Entering JobStarted Notification
+[2021-07-01 10:25:35Z INFO JobNotification] Entering StartMonitor
+[2021-07-01 10:26:35Z INFO JobDispatcher] Successfully renew job request 7, job is valid till 7/1/2021 10:36:35 AM
+[2021-07-01 10:26:38Z INFO Terminal] WRITE LINE: Exiting...
+[2021-07-01 10:26:38Z INFO ConfigurationStore] IsServiceConfigured()
+[2021-07-01 10:26:38Z INFO ConfigurationStore] IsServiceConfigured: False
+[2021-07-01 10:26:38Z INFO HostContext] Runner will be shutdown for UserCancelled
+[2021-07-01 10:26:38Z WARN GitHubActionsService] GET request to https://pipelines.actions.githubusercontent.com/3BTWCpzLYkvu1NzPHUzB4FPWbQngBBR0gwUACze7PhQFAYAljY/_apis/distributedtask/pools/1/messages?sessionId=4b5ee09a-05d2-48e2-88e7-11304922003e&lastMessageId=7 has been cancelled.
+[2021-07-01 10:26:38Z INFO MessageListener] Get next message has been cancelled.
+[2021-07-01 10:26:38Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2021-07-01 10:26:38Z INFO JobDispatcher] Ensure WorkerDispather for job ca395085-040a-526b-2ce8-bdc85f692774 run to finish, cancel any running job.
+[2021-07-01 10:26:38Z INFO JobDispatcher] Send job cancellation message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-01 10:26:39Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-07-01 10:26:39Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-07-01 10:26:39Z INFO ProcessInvokerWrapper] Finished process 28030 with exit code 103, and elapsed time 00:01:03.9678816.
+[2021-07-01 10:26:39Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Canceled
+[2021-07-01 10:26:39Z INFO Terminal] WRITE LINE: 2021-07-01 10:26:39Z: Job build completed with result: Canceled
+[2021-07-01 10:26:39Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-01 10:26:39Z INFO JobDispatcher] job renew has been canceled, stop renew job request 7.
+[2021-07-01 10:26:39Z INFO JobNotification] Entering JobCompleted Notification
+[2021-07-01 10:26:39Z INFO JobNotification] Entering EndMonitor
+[2021-07-01 10:26:40Z INFO Listener] Runner execution been cancelled.

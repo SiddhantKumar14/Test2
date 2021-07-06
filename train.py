@@ -40,8 +40,7 @@ logger = logging.getLogger(__name__)
 
 mlflow.set_tracking_uri("http://10.128.0.19:5001")
 mlflow.set_experiment("licence-plate")
-
-
+print('mlflow done')
 def train(hyp, opt, device, tb_writer=None):
     logger.info(colorstr('hyperparameters: ') + ', '.join(f'{k}={v}' for k, v in hyp.items()))
     save_dir, epochs, batch_size, total_batch_size, weights, rank = \

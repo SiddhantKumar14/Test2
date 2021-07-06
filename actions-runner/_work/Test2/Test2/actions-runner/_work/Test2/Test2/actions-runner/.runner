@@ -1,9 +1,0 @@
-﻿{
-  "agentId": 2,
-  "agentName": "ml-experiment",
-  "poolId": 1,
-  "poolName": "Default",
-  "serverUrl": "https://pipelines.actions.githubusercontent.com/3BTWCpzLYkvu1NzPHUzB4FPWbQngBBR0gwUACze7PhQFAYAljY",
-  "gitHubUrl": "https://github.com/SiddhantKumar14/Test2",
-  "workFolder": "_work"
-}

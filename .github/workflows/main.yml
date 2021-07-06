@@ -39,3 +39,7 @@ jobs:
           git add .
           git commit -m 'formatted'
           git push origin dev
+          
+      - name: Official SonarQube Scan
+        uses: SonarSource/sonarqube-scan-action@v1.0.0
+

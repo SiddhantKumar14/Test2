@@ -1,0 +1,275 @@
+[2021-07-06 04:22:57Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2021-07-06 04:22:57Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-06 04:22:57Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-06 04:22:57Z INFO HostContext] Well known config file 'Credentials': '/home/siddhant.kumar.14/Test2/actions-runner/.credentials'
+[2021-07-06 04:22:57Z INFO Listener] Runner is built for Linux (X64) - linux-x64.
+[2021-07-06 04:22:57Z INFO Listener] RuntimeInformation: Linux 4.9.0-13-amd64 #1 SMP Debian 4.9.228-1 (2020-07-05).
+[2021-07-06 04:22:57Z INFO Listener] Version: 2.278.0
+[2021-07-06 04:22:57Z INFO Listener] Commit: 62d926efce35d3ea16d7624a25aaa5b300737def
+[2021-07-06 04:22:57Z INFO Listener] Culture: en-US
+[2021-07-06 04:22:57Z INFO Listener] UI Culture: en-US
+[2021-07-06 04:22:57Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-06 04:22:57Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-06 04:22:57Z INFO Listener] Validating directory permissions for: '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-06 04:22:57Z INFO CommandLineParser] Parse
+[2021-07-06 04:22:57Z INFO CommandLineParser] Parsing 1 args
+[2021-07-06 04:22:57Z INFO CommandLineParser] parsing argument
+[2021-07-06 04:22:57Z INFO CommandLineParser] HasArgs: False
+[2021-07-06 04:22:57Z INFO CommandLineParser] Adding Command: run
+[2021-07-06 04:22:57Z INFO Listener] Arguments parsed
+[2021-07-06 04:22:57Z INFO Runner] ExecuteCommand
+[2021-07-06 04:22:57Z INFO ConfigurationStore] currentAssemblyLocation: /home/siddhant.kumar.14/Test2/actions-runner/bin/Runner.Listener.dll
+[2021-07-06 04:22:57Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-06 04:22:57Z INFO ConfigurationStore] binPath: /home/siddhant.kumar.14/Test2/actions-runner/bin
+[2021-07-06 04:22:57Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-06 04:22:57Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-06 04:22:57Z INFO ConfigurationStore] RootFolder: /home/siddhant.kumar.14/Test2/actions-runner
+[2021-07-06 04:22:57Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-06 04:22:57Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-06 04:22:57Z INFO HostContext] Well known config file 'Runner': '/home/siddhant.kumar.14/Test2/actions-runner/.runner'
+[2021-07-06 04:22:57Z INFO ConfigurationStore] ConfigFilePath: /home/siddhant.kumar.14/Test2/actions-runner/.runner
+[2021-07-06 04:22:57Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-06 04:22:57Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-06 04:22:57Z INFO HostContext] Well known config file 'Credentials': '/home/siddhant.kumar.14/Test2/actions-runner/.credentials'
+[2021-07-06 04:22:57Z INFO ConfigurationStore] CredFilePath: /home/siddhant.kumar.14/Test2/actions-runner/.credentials
+[2021-07-06 04:22:57Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-06 04:22:57Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-06 04:22:57Z INFO HostContext] Well known config file 'MigratedCredentials': '/home/siddhant.kumar.14/Test2/actions-runner/.credentials_migrated'
+[2021-07-06 04:22:57Z INFO ConfigurationStore] MigratedCredFilePath: /home/siddhant.kumar.14/Test2/actions-runner/.credentials_migrated
+[2021-07-06 04:22:57Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-06 04:22:57Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-06 04:22:57Z INFO HostContext] Well known config file 'Service': '/home/siddhant.kumar.14/Test2/actions-runner/.service'
+[2021-07-06 04:22:57Z INFO ConfigurationStore] ServiceConfigFilePath: /home/siddhant.kumar.14/Test2/actions-runner/.service
+[2021-07-06 04:22:57Z INFO CommandSettings] Flag 'help': 'False'
+[2021-07-06 04:22:57Z INFO CommandSettings] Flag 'version': 'False'
+[2021-07-06 04:22:57Z INFO CommandSettings] Flag 'commit': 'False'
+[2021-07-06 04:22:57Z INFO CommandSettings] Flag 'check': 'False'
+[2021-07-06 04:22:57Z INFO CommandSettings] Command 'configure': 'False'
+[2021-07-06 04:22:57Z INFO CommandSettings] Command 'remove': 'False'
+[2021-07-06 04:22:57Z INFO CommandSettings] Command 'warmup': 'False'
+[2021-07-06 04:22:57Z INFO ConfigurationManager] LoadSettings
+[2021-07-06 04:22:57Z INFO ConfigurationStore] IsConfigured()
+[2021-07-06 04:22:57Z INFO ConfigurationStore] IsConfigured: True
+[2021-07-06 04:22:57Z INFO ConfigurationManager] Is configured: True
+[2021-07-06 04:22:57Z INFO ConfigurationStore] Read setting file: 291 chars
+[2021-07-06 04:22:57Z INFO ConfigurationManager] Settings Loaded
+[2021-07-06 04:22:57Z INFO ConfigurationStore] IsServiceConfigured()
+[2021-07-06 04:22:57Z INFO ConfigurationStore] IsServiceConfigured: False
+[2021-07-06 04:22:57Z INFO CommandSettings] Command 'run': 'True'
+[2021-07-06 04:22:57Z INFO ConfigurationStore] IsConfigured()
+[2021-07-06 04:22:57Z INFO ConfigurationStore] IsConfigured: True
+[2021-07-06 04:22:57Z INFO ConfigurationManager] Is configured: True
+[2021-07-06 04:22:57Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2021-07-06 04:22:57Z INFO Runner] Set runner startup type - Manual
+[2021-07-06 04:22:57Z INFO CommandSettings] Flag 'once': 'False'
+[2021-07-06 04:22:57Z INFO Runner] RunAsync
+[2021-07-06 04:22:57Z INFO ConfigurationManager] LoadSettings
+[2021-07-06 04:22:57Z INFO ConfigurationStore] IsConfigured()
+[2021-07-06 04:22:57Z INFO ConfigurationStore] IsConfigured: True
+[2021-07-06 04:22:57Z INFO ConfigurationManager] Is configured: True
+[2021-07-06 04:22:57Z INFO ConfigurationManager] Settings Loaded
+[2021-07-06 04:22:57Z INFO MessageListener] {
+  "AgentId": 2,
+  "AgentName": "ml-experiment",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelines.actions.githubusercontent.com/3BTWCpzLYkvu1NzPHUzB4FPWbQngBBR0gwUACze7PhQFAYAljY",
+  "GitHubUrl": "https://github.com/SiddhantKumar14/Test2",
+  "WorkFolder": "_work"
+}
+[2021-07-06 04:22:57Z INFO MessageListener] Loading Credentials
+[2021-07-06 04:22:57Z INFO ConfigurationStore] HasCredentials()
+[2021-07-06 04:22:57Z INFO ConfigurationStore] stored True
+[2021-07-06 04:22:57Z INFO CredentialManager] GetCredentialProvider
+[2021-07-06 04:22:57Z INFO CredentialManager] Creating type OAuth
+[2021-07-06 04:22:57Z INFO CredentialManager] Creating credential type: OAuth
+[2021-07-06 04:22:57Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-06 04:22:57Z INFO HostContext] Well known directory 'Root': '/home/siddhant.kumar.14/Test2/actions-runner'
+[2021-07-06 04:22:57Z INFO HostContext] Well known config file 'RSACredentials': '/home/siddhant.kumar.14/Test2/actions-runner/.credentials_rsaparams'
+[2021-07-06 04:22:57Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/siddhant.kumar.14/Test2/actions-runner/.credentials_rsaparams
+[2021-07-06 04:22:57Z INFO MessageListener] Attempt to create session.
+[2021-07-06 04:22:57Z INFO MessageListener] Connecting to the Runner Server...
+[2021-07-06 04:22:57Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2021-07-06 04:22:57Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-07-06 04:22:57Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2021-07-06 04:22:57Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-07-06 04:22:58Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2021-07-06 04:22:58Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-07-06 04:22:58Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-07-06 04:22:58Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-07-06 04:22:58Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-07-06 04:22:58Z INFO MessageListener] VssConnection created
+[2021-07-06 04:22:58Z INFO Terminal] WRITE LINE: 
+[2021-07-06 04:22:58Z INFO Terminal] WRITE LINE: 
+[2021-07-06 04:22:58Z WARN GitHubActionsService] Authentication failed with status code 401.
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: 80e87ec5-62f6-4089-aad5-780f68c8969a
+ActivityId: e80bfd52-42a4-4387-92ef-3a1ddf33fdef
+X-TFS-Session: 739dd93a-5ba3-449c-983e-48623a4ec122
+X-VSS-E2EID: 8e948558-666d-432a-ab8b-65c71452bb64
+X-VSS-SenderDeploymentId: 6074703f-c195-632a-bd61-21691fc86fa5
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 1E7416FE0D6E417DB97353D3126A6023 Ref B: CHGEDGE1910 Ref C: 2021-07-06T04:22:58Z
+Date: Tue, 06 Jul 2021 04:22:58 GMT
+
+[2021-07-06 04:22:58Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/siddhant.kumar.14/Test2/actions-runner/.credentials_rsaparams
+[2021-07-06 04:22:58Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/siddhant.kumar.14/Test2/actions-runner/.credentials_rsaparams
+[2021-07-06 04:22:58Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2021-07-06 04:22:58Z INFO MessageListener] Session created.
+[2021-07-06 04:22:58Z INFO Terminal] WRITE LINE: 2021-07-06 04:22:58Z: Listening for Jobs
+[2021-07-06 04:22:58Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2021-07-06 04:23:01Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/siddhant.kumar.14/Test2/actions-runner/.credentials_rsaparams
+[2021-07-06 04:23:01Z INFO MessageListener] Message '9' received from session 'ba047f27-38e5-4323-b3f2-73b8c7394a73'.
+[2021-07-06 04:23:01Z INFO JobDispatcher] Job request 9 for plan 61b17908-2dae-44d8-b4c4-8438d1a5b36f job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2021-07-06 04:23:01Z INFO JobDispatcher] Pull OrchestrationId 61b17908-2dae-44d8-b4c4-8438d1a5b36f.build.__default from JWT claims
+[2021-07-06 04:23:01Z INFO Terminal] WRITE LINE: 2021-07-06 04:23:01Z: Running job: build
+[2021-07-06 04:23:01Z INFO JobDispatcher] Start renew job request 9 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-06 04:23:01Z INFO JobDispatcher] Successfully renew job request 9, job is valid till 7/6/2021 4:33:01 AM
+[2021-07-06 04:23:01Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-06 04:23:01Z INFO ProcessInvokerWrapper] Starting process:
+[2021-07-06 04:23:01Z INFO ProcessInvokerWrapper]   File name: '/home/siddhant.kumar.14/Test2/actions-runner/bin/Runner.Worker'
+[2021-07-06 04:23:01Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 102 105'
+[2021-07-06 04:23:01Z INFO ProcessInvokerWrapper]   Working directory: '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-06 04:23:01Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-07-06 04:23:01Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-07-06 04:23:01Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2021-07-06 04:23:01Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-07-06 04:23:01Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-07-06 04:23:01Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-07-06 04:23:01Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2021-07-06 04:23:01Z INFO ProcessInvokerWrapper] Process started with process id 13724, waiting for process exit.
+[2021-07-06 04:23:01Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-06 04:23:01Z INFO JobNotification] Entering JobStarted Notification
+[2021-07-06 04:23:01Z INFO JobNotification] Entering StartMonitor
+[2021-07-06 04:24:01Z INFO JobDispatcher] Successfully renew job request 9, job is valid till 7/6/2021 4:34:01 AM
+[2021-07-06 04:24:27Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-07-06 04:24:27Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-07-06 04:24:27Z INFO ProcessInvokerWrapper] Finished process 13724 with exit code 102, and elapsed time 00:01:25.5799878.
+[2021-07-06 04:24:27Z INFO JobDispatcher] Worker finished for job ca395085-040a-526b-2ce8-bdc85f692774. Code: 102
+[2021-07-06 04:24:27Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Failed
+[2021-07-06 04:24:27Z INFO Terminal] WRITE LINE: 2021-07-06 04:24:27Z: Job build completed with result: Failed
+[2021-07-06 04:24:27Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-06 04:24:27Z INFO JobDispatcher] job renew has been canceled, stop renew job request 9.
+[2021-07-06 04:24:27Z INFO JobNotification] Entering JobCompleted Notification
+[2021-07-06 04:24:27Z INFO JobNotification] Entering EndMonitor
+[2021-07-06 04:24:29Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/siddhant.kumar.14/Test2/actions-runner/.credentials_rsaparams
+[2021-07-06 04:24:29Z INFO MessageListener] Message '10' received from session 'ba047f27-38e5-4323-b3f2-73b8c7394a73'.
+[2021-07-06 04:24:29Z INFO JobDispatcher] Job request 12 for plan 771f40dd-a85c-4647-a4db-e7d5cb728071 job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2021-07-06 04:24:29Z INFO JobDispatcher] Pull OrchestrationId 771f40dd-a85c-4647-a4db-e7d5cb728071.build.__default from JWT claims
+[2021-07-06 04:24:29Z INFO JobDispatcher] Job request ca395085-040a-526b-2ce8-bdc85f692774 processed succeed.
+[2021-07-06 04:24:29Z INFO Terminal] WRITE LINE: 2021-07-06 04:24:29Z: Running job: build
+[2021-07-06 04:24:29Z INFO JobDispatcher] Start renew job request 12 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-06 04:24:29Z INFO JobDispatcher] Successfully renew job request 12, job is valid till 7/6/2021 4:34:29 AM
+[2021-07-06 04:24:29Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-06 04:24:29Z INFO ProcessInvokerWrapper] Starting process:
+[2021-07-06 04:24:29Z INFO ProcessInvokerWrapper]   File name: '/home/siddhant.kumar.14/Test2/actions-runner/bin/Runner.Worker'
+[2021-07-06 04:24:29Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 88 104'
+[2021-07-06 04:24:29Z INFO ProcessInvokerWrapper]   Working directory: '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-06 04:24:29Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-07-06 04:24:29Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-07-06 04:24:29Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2021-07-06 04:24:29Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-07-06 04:24:29Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-07-06 04:24:29Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-07-06 04:24:29Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2021-07-06 04:24:29Z INFO ProcessInvokerWrapper] Process started with process id 16678, waiting for process exit.
+[2021-07-06 04:24:29Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-06 04:24:29Z INFO JobNotification] Entering JobStarted Notification
+[2021-07-06 04:24:29Z INFO JobNotification] Entering StartMonitor
+[2021-07-06 04:25:29Z INFO JobDispatcher] Successfully renew job request 12, job is valid till 7/6/2021 4:35:29 AM
+[2021-07-06 04:25:55Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-07-06 04:25:55Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-07-06 04:25:55Z INFO ProcessInvokerWrapper] Finished process 16678 with exit code 102, and elapsed time 00:01:26.3662554.
+[2021-07-06 04:25:55Z INFO JobDispatcher] Worker finished for job ca395085-040a-526b-2ce8-bdc85f692774. Code: 102
+[2021-07-06 04:25:55Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Failed
+[2021-07-06 04:25:55Z INFO Terminal] WRITE LINE: 2021-07-06 04:25:55Z: Job build completed with result: Failed
+[2021-07-06 04:25:55Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-06 04:25:55Z INFO JobDispatcher] job renew has been canceled, stop renew job request 12.
+[2021-07-06 04:25:55Z INFO JobNotification] Entering JobCompleted Notification
+[2021-07-06 04:25:55Z INFO JobNotification] Entering EndMonitor
+[2021-07-06 04:25:58Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/siddhant.kumar.14/Test2/actions-runner/.credentials_rsaparams
+[2021-07-06 04:25:58Z INFO MessageListener] Message '11' received from session 'ba047f27-38e5-4323-b3f2-73b8c7394a73'.
+[2021-07-06 04:25:58Z INFO JobDispatcher] Job request 13 for plan ff4dd1d4-8ed8-4fcd-a5b6-9da851772dfe job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2021-07-06 04:25:58Z INFO JobDispatcher] Pull OrchestrationId ff4dd1d4-8ed8-4fcd-a5b6-9da851772dfe.build.__default from JWT claims
+[2021-07-06 04:25:58Z INFO JobDispatcher] Job request ca395085-040a-526b-2ce8-bdc85f692774 processed succeed.
+[2021-07-06 04:25:58Z INFO Terminal] WRITE LINE: 2021-07-06 04:25:58Z: Running job: build
+[2021-07-06 04:25:58Z INFO JobDispatcher] Start renew job request 13 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-06 04:25:58Z INFO JobDispatcher] Successfully renew job request 13, job is valid till 7/6/2021 4:35:58 AM
+[2021-07-06 04:25:58Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-06 04:25:58Z INFO ProcessInvokerWrapper] Starting process:
+[2021-07-06 04:25:58Z INFO ProcessInvokerWrapper]   File name: '/home/siddhant.kumar.14/Test2/actions-runner/bin/Runner.Worker'
+[2021-07-06 04:25:58Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 88 104'
+[2021-07-06 04:25:58Z INFO ProcessInvokerWrapper]   Working directory: '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-06 04:25:58Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-07-06 04:25:58Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-07-06 04:25:58Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2021-07-06 04:25:58Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-07-06 04:25:58Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-07-06 04:25:58Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-07-06 04:25:58Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2021-07-06 04:25:58Z INFO ProcessInvokerWrapper] Process started with process id 19442, waiting for process exit.
+[2021-07-06 04:25:58Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-06 04:25:58Z INFO JobNotification] Entering JobStarted Notification
+[2021-07-06 04:25:58Z INFO JobNotification] Entering StartMonitor
+[2021-07-06 04:26:58Z INFO JobDispatcher] Successfully renew job request 13, job is valid till 7/6/2021 4:36:58 AM
+[2021-07-06 04:27:53Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-07-06 04:27:53Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-07-06 04:27:53Z INFO ProcessInvokerWrapper] Finished process 19442 with exit code 102, and elapsed time 00:01:54.6346051.
+[2021-07-06 04:27:53Z INFO JobDispatcher] Worker finished for job ca395085-040a-526b-2ce8-bdc85f692774. Code: 102
+[2021-07-06 04:27:53Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Failed
+[2021-07-06 04:27:53Z INFO Terminal] WRITE LINE: 2021-07-06 04:27:53Z: Job build completed with result: Failed
+[2021-07-06 04:27:53Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-06 04:27:53Z INFO JobDispatcher] job renew has been canceled, stop renew job request 13.
+[2021-07-06 04:27:53Z INFO JobNotification] Entering JobCompleted Notification
+[2021-07-06 04:27:53Z INFO JobNotification] Entering EndMonitor
+[2021-07-06 04:27:55Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/siddhant.kumar.14/Test2/actions-runner/.credentials_rsaparams
+[2021-07-06 04:27:55Z INFO MessageListener] Message '12' received from session 'ba047f27-38e5-4323-b3f2-73b8c7394a73'.
+[2021-07-06 04:27:55Z INFO JobDispatcher] Job request 14 for plan dc8bef19-2f39-4c94-b843-6b00b5717dd8 job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2021-07-06 04:27:55Z INFO JobDispatcher] Pull OrchestrationId dc8bef19-2f39-4c94-b843-6b00b5717dd8.build.__default from JWT claims
+[2021-07-06 04:27:55Z INFO JobDispatcher] Job request ca395085-040a-526b-2ce8-bdc85f692774 processed succeed.
+[2021-07-06 04:27:55Z INFO Terminal] WRITE LINE: 2021-07-06 04:27:55Z: Running job: build
+[2021-07-06 04:27:55Z INFO JobDispatcher] Start renew job request 14 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-06 04:27:55Z INFO JobDispatcher] Successfully renew job request 14, job is valid till 7/6/2021 4:37:55 AM
+[2021-07-06 04:27:55Z INFO HostContext] Well known directory 'Bin': '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-06 04:27:55Z INFO ProcessInvokerWrapper] Starting process:
+[2021-07-06 04:27:55Z INFO ProcessInvokerWrapper]   File name: '/home/siddhant.kumar.14/Test2/actions-runner/bin/Runner.Worker'
+[2021-07-06 04:27:55Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 88 104'
+[2021-07-06 04:27:55Z INFO ProcessInvokerWrapper]   Working directory: '/home/siddhant.kumar.14/Test2/actions-runner/bin'
+[2021-07-06 04:27:55Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-07-06 04:27:55Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-07-06 04:27:55Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2021-07-06 04:27:55Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-07-06 04:27:55Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-07-06 04:27:55Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-07-06 04:27:55Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2021-07-06 04:27:55Z INFO ProcessInvokerWrapper] Process started with process id 22888, waiting for process exit.
+[2021-07-06 04:27:55Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-06 04:27:55Z INFO JobNotification] Entering JobStarted Notification
+[2021-07-06 04:27:55Z INFO JobNotification] Entering StartMonitor
+[2021-07-06 04:28:55Z INFO JobDispatcher] Successfully renew job request 14, job is valid till 7/6/2021 4:38:55 AM
+[2021-07-06 04:29:34Z INFO Terminal] WRITE LINE: Exiting...
+[2021-07-06 04:29:34Z INFO ConfigurationStore] IsServiceConfigured()
+[2021-07-06 04:29:34Z INFO ConfigurationStore] IsServiceConfigured: False
+[2021-07-06 04:29:34Z INFO HostContext] Runner will be shutdown for UserCancelled
+[2021-07-06 04:29:34Z WARN GitHubActionsService] GET request to https://pipelines.actions.githubusercontent.com/3BTWCpzLYkvu1NzPHUzB4FPWbQngBBR0gwUACze7PhQFAYAljY/_apis/distributedtask/pools/1/messages?sessionId=ba047f27-38e5-4323-b3f2-73b8c7394a73&lastMessageId=12 has been cancelled.
+[2021-07-06 04:29:34Z INFO MessageListener] Get next message has been cancelled.
+[2021-07-06 04:29:34Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2021-07-06 04:29:34Z INFO JobDispatcher] Ensure WorkerDispather for job ca395085-040a-526b-2ce8-bdc85f692774 run to finish, cancel any running job.
+[2021-07-06 04:29:34Z INFO JobDispatcher] Send job cancellation message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-06 04:29:34Z INFO Terminal] WRITE LINE: Exiting...
+[2021-07-06 04:29:34Z INFO ConfigurationStore] IsServiceConfigured()
+[2021-07-06 04:29:34Z INFO ConfigurationStore] IsServiceConfigured: False
+[2021-07-06 04:29:34Z INFO HostContext] Runner will be shutdown for UserCancelled
+[2021-07-06 04:29:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-07-06 04:29:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-07-06 04:29:36Z INFO ProcessInvokerWrapper] Finished process 22888 with exit code 103, and elapsed time 00:01:40.6081174.
+[2021-07-06 04:29:36Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Canceled
+[2021-07-06 04:29:36Z INFO Terminal] WRITE LINE: 2021-07-06 04:29:36Z: Job build completed with result: Canceled
+[2021-07-06 04:29:36Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-07-06 04:29:36Z INFO JobDispatcher] job renew has been canceled, stop renew job request 14.
+[2021-07-06 04:29:36Z INFO JobNotification] Entering JobCompleted Notification
+[2021-07-06 04:29:36Z INFO JobNotification] Entering EndMonitor
+[2021-07-06 04:29:36Z INFO Listener] Runner execution been cancelled.

@@ -61,6 +61,7 @@ logger = logging.getLogger(__name__)
 
 mlflow.set_tracking_uri("http://10.128.0.19:5001")
 mlflow.set_experiment("licence-plate")
+print("mlflow done")
 
 
 def train(hyp, opt, device, tb_writer=None):
